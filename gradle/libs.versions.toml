@@ -14,7 +14,7 @@ androidxHilt = "1.4.0"
 junit = "4.13.2"
 coroutines = "1.10.2"
 serialization = "1.10.0"
-appcompat = "1.7.1"
+appcompat = "1.8.0"
 robolectric = "4.16"
 androidxTest = "1.7.0"
 
