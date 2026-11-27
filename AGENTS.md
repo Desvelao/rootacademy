@@ -28,7 +28,7 @@ SOC, Cipher Quest, Tower defense) are implemented.
 ```bash
 make image      # once, and after Dockerfile changes
 make check      # the standard check: unit tests and lint
-make debug      # debug APK, copied to dist/<app>-<yyyymmdd-hhmm>.apk
+make dev        # debug APK in dist/<app>-<version>-<yyyymmddhhmm>.apk (versionName `<version>-YYYYMMDDHHmm`, versionCode `yyMMddHH`)
 make install    # needs a device/emulator
 make release    # needs signing (README)
 ```

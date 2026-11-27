@@ -19,7 +19,7 @@ Native Android app (Kotlin, Jetpack Compose, Material 3). Everything builds insi
 make image      # build the dev image (once, and after Dockerfile changes)
 make check      # unit tests, content packs (packcheck) and lint
 make packcheck  # validate content/ and replay every mission solution
-make debug      # debug APK, copied to dist/<app>-<yyyymmdd-hhmm>.apk
+make dev        # debug APK in dist/<app>-<version>-<yyyymmddhhmm>.apk (versionName `<version>-YYYYMMDDHHmm`, versionCode `yyMMddHH`)
 make install    # install on a device/emulator
 make release    # signed APK and AAB (needs signing, see below)
 make help       # every target
@@ -44,7 +44,7 @@ tracked `app.properties`, then the default in `app/build.gradle.kts`.
 | `APP_VERSION_NAME` / `APP_VERSION_CODE` | not set (the release workflow sets them; defaults `0.1.0` / `1`) |
 
 ```bash
-APP_NAME="My App" APP_ID=com.example.myapp make debug
+APP_NAME="My App" APP_ID=com.example.myapp make dev
 ```
 
 ## Release signing
