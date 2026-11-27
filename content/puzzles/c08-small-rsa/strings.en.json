@@ -1,0 +1,8 @@
+{
+  "title": "A key that is too small",
+  "prompt": "A message encrypted with RSA, with a public key small enough to break. Each number is one letter (A=1 … Z=26). The flag is flag{word} in lower case.",
+  "hint.1": "RSA is only safe when n is too big to factor. Factor n into two primes.",
+  "hint.2": "With p and q you can compute the private exponent d, the inverse of e modulo (p-1)(q-1). The Cipher Quest RSA helper does it.",
+  "hint.3": "n = 101 × 103. Decrypt each number as number^d mod n and turn it back into a letter.",
+  "walkthrough": "Factor n, compute d, decrypt each number and read the letters. The word is lower-cased inside flag{...}."
+}

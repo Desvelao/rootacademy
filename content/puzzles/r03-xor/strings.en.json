@@ -1,0 +1,8 @@
+{
+  "title": "One-byte XOR",
+  "prompt": "The script XORs each number with a key. Do the same by hand or by reasoning.",
+  "hint.1": "XOR with the same key twice returns the original.",
+  "hint.2": "The key is 42. Compute number XOR 42 for each.",
+  "hint.3": "First numbers: 76 ^ 42 = 102 = f.",
+  "walkthrough": "XOR every number with 42."
+}

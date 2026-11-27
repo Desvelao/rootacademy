@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "w02-comment",
+  "type": "puzzle",
+  "category": "web",
+  "difficulty": 1,
+  "points": 50,
+  "skills": {
+    "web": 10
+  },
+  "unlocks": {
+    "codex": [
+      "xss-basics"
+    ]
+  },
+  "files": {
+    "index.html": "<html>\n<body>\n<h1>Coming soon</h1>\n<!-- TODO remove before launch: flag{view_source_is_free} -->\n</body>\n</html>"
+  },
+  "tools": [],
+  "flag_sha256": "dfe0839449f8a279a3d5ff2df93fac75111bf217b39c62867ee36999b09ac65f"
+}

@@ -1,0 +1,8 @@
+{
+  "title": "No pasar",
+  "prompt": "robots.txt pide a los buscadores no entrar en ciertas rutas. ¿Detiene a las personas?",
+  "hint.1": "Las líneas Disallow listan rutas que el dueño quiere ocultar.",
+  "hint.2": "Abre la ruta interesante de la lista.",
+  "hint.3": "Lee notes.txt en la carpeta privada.",
+  "walkthrough": "robots.txt lista carpetas ocultas."
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Halcyon: the real network",
+  "brief": "Now the whole company: public web, mail, offices and HR, all feeding the same database. All five attack types will show up. Money is limited, so build only what each wave needs.",
+  "debrief": "Look at each route: where do the attacks pass? Segmentation means they have several nodes where you can stop them.",
+  "hint.1": "The edge sees everything from the internet: firewall and MFA there stop floods and password guessing.",
+  "hint.2": "Mail needs a filter, the office a patch, and the database a backup.",
+  "hint.3": "You can sell a defense for half its price if you need money.",
+  "walkthrough": "Wave 1 firewall and MFA on the edge, wave 2 filter on mail and patch on the office, wave 3 backup on the database. Wave 4 is already covered.",
+  "node.internet": "Internet",
+  "node.edge": "Edge firewall",
+  "node.dmz": "Public web",
+  "node.app": "App server",
+  "node.mail": "Mail gateway",
+  "node.office": "Office network",
+  "node.hr": "HR system",
+  "node.db": "Core database"
+}

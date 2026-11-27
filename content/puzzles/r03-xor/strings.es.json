@@ -1,0 +1,8 @@
+{
+  "title": "XOR de un byte",
+  "prompt": "El script aplica XOR a cada número con una clave. Hazlo a mano o razonando.",
+  "hint.1": "Aplicar XOR dos veces con la misma clave devuelve el original.",
+  "hint.2": "La clave es 42. Calcula número XOR 42 para cada uno.",
+  "hint.3": "Primeros números: 76 ^ 42 = 102 = f.",
+  "walkthrough": "Aplica XOR 42 a cada número."
+}

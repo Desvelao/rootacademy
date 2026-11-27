@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "id": "td1-startup",
+  "type": "defense-map",
+  "order": 1,
+  "points": 150,
+  "skills": {
+    "defense": 30,
+    "network": 10
+  },
+  "unlocks": {
+    "codex": [
+      "defense-in-depth",
+      "brute-force-and-mfa"
+    ]
+  },
+  "integrity": 5,
+  "startMoney": 100,
+  "income": 70,
+  "nodes": [
+    {
+      "id": "internet",
+      "x": 0.06,
+      "y": 0.5
+    },
+    {
+      "id": "router",
+      "x": 0.28,
+      "y": 0.5
+    },
+    {
+      "id": "web",
+      "x": 0.52,
+      "y": 0.22
+    },
+    {
+      "id": "mail",
+      "x": 0.52,
+      "y": 0.78
+    },
+    {
+      "id": "pc",
+      "x": 0.74,
+      "y": 0.78
+    },
+    {
+      "id": "db",
+      "x": 0.93,
+      "y": 0.5
+    }
+  ],
+  "links": [
+    [
+      "internet",
+      "router"
+    ],
+    [
+      "router",
+      "web"
+    ],
+    [
+      "router",
+      "mail"
+    ],
+    [
+      "mail",
+      "pc"
+    ],
+    [
+      "web",
+      "db"
+    ],
+    [
+      "pc",
+      "db"
+    ]
+  ],
+  "spawn": "internet",
+  "target": "db",
+  "waves": [
+    [
+      {
+        "at": 10,
+        "attack": "ddos",
+        "count": 3,
+        "gap": 15
+      }
+    ],
+    [
+      {
+        "at": 10,
+        "attack": "phishing",
+        "count": 3,
+        "gap": 20,
+        "via": "mail"
+      },
+      {
+        "at": 90,
+        "attack": "ddos",
+        "count": 2,
+        "gap": 15
+      }
+    ],
+    [
+      {
+        "at": 10,
+        "attack": "bruteforce",
+        "count": 3,
+        "gap": 15
+      },
+      {
+        "at": 70,
+        "attack": "phishing",
+        "count": 2,
+        "gap": 20,
+        "via": "mail"
+      }
+    ],
+    [
+      {
+        "at": 10,
+        "attack": "worm",
+        "count": 3,
+        "gap": 10,
+        "from": "pc"
+      },
+      {
+        "at": 60,
+        "attack": "ddos",
+        "count": 2,
+        "gap": 15
+      },
+      {
+        "at": 100,
+        "attack": "bruteforce",
+        "count": 2,
+        "gap": 15
+      }
+    ]
+  ]
+}

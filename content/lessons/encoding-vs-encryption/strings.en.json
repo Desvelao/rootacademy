@@ -1,0 +1,4 @@
+{
+  "title": "Encoding is not encryption",
+  "body": "Base64, hex and URL encoding only change how data is written, so it fits in text. Anyone can reverse them with no key. Encryption needs a secret key.\n\nIf a secret is only encoded, it is not protected at all.\n\nDefenders: never treat encoding as protection; encrypt secrets or, better, keep them out of files and backups.\n\nHow to spot it: text made only of letters, digits, + and / that ends in = is probably base64; pairs of 0-9 and a-f are hex; %20-style groups are URL encoding. If a tool decodes it with no key, it was never encrypted."
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Pastel de capas",
+  "prompt": "Alguien codificó la bandera más de una vez.",
+  "hint.1": "Decodifica la primera capa: parece Base64.",
+  "hint.2": "El resultado es hex. Decodifícalo y vuelve a mirar.",
+  "hint.3": "Base64, hex, Base64: deshaz cada capa por turno.",
+  "walkthrough": "Base64 -> hex -> Base64."
+}

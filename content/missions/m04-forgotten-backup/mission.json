@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "id": "m04-forgotten-backup",
+  "type": "terminal-mission",
+  "order": 4,
+  "difficulty": 2,
+  "points": 150,
+  "skills": {
+    "linux": 15,
+    "crypto": 15
+  },
+  "unlocks": {
+    "codex": [
+      "encoding-vs-encryption"
+    ]
+  },
+  "startHost": "laptop",
+  "startUser": "guest",
+  "hosts": [
+    {
+      "ip": "10.0.7.10",
+      "name": "laptop",
+      "services": [],
+      "files": {
+        "/home/guest/notes.txt": {
+          "text": "staging login from the wiki: dev / st4ging-Pass1",
+          "owner": "guest"
+        }
+      }
+    },
+    {
+      "ip": "10.0.7.9",
+      "name": "staging",
+      "services": [
+        "ssh"
+      ],
+      "logins": [
+        {
+          "user": "dev",
+          "password": "st4ging-Pass1"
+        }
+      ],
+      "files": {
+        "/home/dev/todo": {
+          "text": "clean /var/backups someday",
+          "owner": "dev"
+        },
+        "/var/backups/config.bak": {
+          "text": "db_host=10.0.7.5\napi_key=ZmxhZ3tkMG50X2wzNHZlX2I0Y2t1cHN9"
+        }
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "login",
+      "on": "connect",
+      "target": "staging"
+    },
+    {
+      "id": "bak",
+      "on": "read",
+      "target": "staging:/var/backups/config.bak"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "be42f70f0d2a0d72b2b08f19b768f9c67dc9846d8ddc2fbe2ed43d95d382405c",
+  "traceLimit": 90
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Cruzando el río",
+  "prompt": "Este mensaje usa un desplazamiento César, pero nadie recuerda cuál. Solo hay 25 por probar.",
+  "hint.1": "Prueba todos los desplazamientos del 1 al 25 con la herramienta César.",
+  "hint.2": "Busca el desplazamiento que da palabras reales.",
+  "hint.3": "La palabra corta 'the' se esconde en el cifrado.",
+  "walkthrough": "Desplazamiento 5 hacia atrás."
+}

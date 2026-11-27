@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "cq08-wwii",
+  "type": "cipher-level",
+  "order": 8,
+  "chapter": "wwii",
+  "cipher": "enigma",
+  "ciphertext": "VKKIJ PIRPY JBVHE DZGBU ALJEL XSZTG FJTYV DEOMG MDY",
+  "points": 110,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "hex-and-binary"
+    ]
+  },
+  "flag_sha256": "531858e28a79e36f649e561b2b7dc0ad6689bd6f8e81bd89743910160024aabf"
+}

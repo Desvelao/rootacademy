@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "id": "m07-pivot",
+  "type": "terminal-mission",
+  "order": 7,
+  "difficulty": 3,
+  "points": 200,
+  "skills": {
+    "network": 20,
+    "linux": 10
+  },
+  "unlocks": {
+    "codex": [
+      "ssh-and-pivoting"
+    ]
+  },
+  "startHost": "laptop",
+  "startUser": "guest",
+  "hosts": [
+    {
+      "ip": "10.0.7.10",
+      "name": "laptop",
+      "services": [],
+      "files": {
+        "/home/guest/notes.txt": {
+          "text": "web box login: webadmin / w3b-2024",
+          "owner": "guest"
+        }
+      }
+    },
+    {
+      "ip": "10.0.7.2",
+      "name": "web",
+      "services": [
+        "http",
+        "ssh"
+      ],
+      "logins": [
+        {
+          "user": "webadmin",
+          "password": "w3b-2024"
+        }
+      ],
+      "files": {
+        "/home/webadmin/.bash_history": {
+          "text": "ls\ncd /var/www\nssh dba@db\n# db password: Db-Backup9\nexit",
+          "owner": "webadmin"
+        }
+      }
+    },
+    {
+      "ip": "10.0.7.5",
+      "name": "db",
+      "services": [
+        "ssh"
+      ],
+      "logins": [
+        {
+          "user": "dba",
+          "password": "Db-Backup9"
+        }
+      ],
+      "files": {
+        "/home/dba/flag.txt": {
+          "text": "flag{history_remembers_everything}",
+          "mode": "600",
+          "owner": "dba"
+        }
+      },
+      "hidden": true
+    }
+  ],
+  "objectives": [
+    {
+      "id": "web",
+      "on": "connect",
+      "target": "web"
+    },
+    {
+      "id": "db",
+      "on": "connect",
+      "target": "db"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "5dded74fccc1b8b4951deab46512d54696b2913f943992da580bfd7544f167d3",
+  "traceLimit": 70
+}

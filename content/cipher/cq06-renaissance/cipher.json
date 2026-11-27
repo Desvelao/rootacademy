@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "cq06-renaissance",
+  "type": "cipher-level",
+  "order": 6,
+  "chapter": "renaissance",
+  "cipher": "vigenere",
+  "ciphertext": "nriw jbvmsh dum mebimxx sf zjenl ish dum lykelx wvrmu ed zqirstpy fbvvl xrr kfvd gw ylo bti qsyt",
+  "points": 120,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "caesar-and-rot13"
+    ]
+  },
+  "flag_sha256": "e667e26451b8d34ca056ff9e681272c5592f6aaca12975b6dc79ee0ab5a5d576"
+}

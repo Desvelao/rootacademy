@@ -1,0 +1,8 @@
+{
+  "title": "Pública y privada",
+  "prompt": "RSA usa una clave pública (n=3233, e=17) para cifrar. Las letras son A=1..Z=26, cada una cifrada por separado. Conocer p=61 y q=53 permite descifrar.",
+  "hint.1": "Usa la herramienta RSA con n=3233 y e=17.",
+  "hint.2": "La herramienta factoriza n por ti.",
+  "hint.3": "Como n es diminuto, cualquiera puede factorizarlo. El RSA real usa primos de cientos de dígitos.",
+  "walkthrough": "Descifra cada número: R, S, A."
+}

@@ -1,0 +1,4 @@
+{
+  "title": "Cookies and tokens",
+  "body": "Sites keep you logged in with cookies or tokens. If a token only holds readable data (like role=user) that the client can edit, an attacker can change it. Tokens must be signed, and the server must never trust what the browser sends.\n\nDefenders: sign or encrypt tokens, keep sessions on the server and check permissions on every request.\n\nHow to spot it: open the cookie or token and look for readable values such as role=user, id=7 or base64 that decodes to plain text. If changing it changes what the site lets you do, the server trusts the client too much."
+}

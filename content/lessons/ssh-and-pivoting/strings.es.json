@@ -1,0 +1,4 @@
+{
+  "title": "SSH y pivoteo",
+  "body": "SSH da acceso remoto a una terminal. Quien entra en una máquina busca credenciales allí (historial, notas, configuración) y las usa para llegar a equipos que no estaban expuestos. Ese salto es pivotar.\n\nDefensa: segmenta la red, usa claves en vez de contraseñas, nunca pongas contraseñas en comandos y limita quién llega adónde.\n\nCómo detectarlo: al llegar a una máquina, revisa el historial de la shell, notas y archivos de configuración en busca de usuarios, contraseñas y nombres de host, y pruébalos con ssh usuario@host. Cada acierto es un nuevo punto de apoyo más dentro de la red."
+}

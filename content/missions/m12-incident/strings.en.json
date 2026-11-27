@@ -1,0 +1,13 @@
+{
+  "title": "Incident response",
+  "brief": "Now you are the defender. Halcyon's admin account was used at 3 a.m. Find who did it from the authentication log.",
+  "hint.1": "The playbook tells you what to look for. cat /opt/ir/playbook.txt",
+  "hint.2": "grep Failed /var/log/auth.log shows the guessing. Which IP repeats?",
+  "hint.3": "grep Accepted shows who got in. The IP that failed first and then succeeded is the attacker.",
+  "walkthrough": "grep Accepted /var/log/auth.log. The attacker is 203.0.113.50. Submit flag{203.0.113.50}.",
+  "debrief": "Many failures from one address followed by a success is brute force. You caught it from logs alone. Defenders: rate-limit logins, require MFA, alert on this pattern, and layer controls so one failure is not fatal (defense in depth).",
+  "objective.playbook": "Read the incident playbook",
+  "objective.grep": "Search the auth log with grep",
+  "objective.log": "Read auth.log",
+  "objective.flag": "Submit flag{<attacker ip>}"
+}

@@ -1,0 +1,4 @@
+{
+  "title": "Inyección SQL",
+  "body": "Si un sitio pega la entrada del usuario en una cadena SQL, el usuario puede cambiar la consulta: admin'-- convierte el resto en comentario. La base de datos confía entonces en SQL escrito por el atacante.\n\nDefensa: usa consultas parametrizadas, valida la entrada y da a la cuenta de base de datos solo los permisos necesarios.\n\nCómo detectarlo: un inicio de sesión o búsqueda que falla con una comilla simple (') o muestra un error de base de datos. Una entrada de prueba clásica es admin'-- ; si te deja entrar sin la contraseña, la consulta se construye con texto sin tratar."
+}

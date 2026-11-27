@@ -1,0 +1,8 @@
+{
+  "title": "La máquina",
+  "prompt": "Una Enigma funciona en ambos sentidos: los mismos ajustes cifran y descifran. Los rotores empiezan en AAA. Descífralo.",
+  "hint.1": "Abre la herramienta Enigma y pon las posiciones en AAA.",
+  "hint.2": "Escribe el cifrado. La salida es el texto.",
+  "hint.3": "Enigma nunca convierte una letra en sí misma, lo que ayudó a los criptoanalistas.",
+  "walkthrough": "Ajustes AAA."
+}

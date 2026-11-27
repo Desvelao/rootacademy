@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "f03-hexdump",
+  "type": "puzzle",
+  "category": "forensics",
+  "difficulty": 2,
+  "points": 70,
+  "skills": {
+    "linux": 10,
+    "crypto": 10
+  },
+  "unlocks": {
+    "codex": [
+      "hex-and-binary"
+    ]
+  },
+  "files": {
+    "dump.hex": "48 44 52 00 01 66 6c 61 67 7b 68 65 78 5f 64 75 6d 70 5f 72 65 61 64 65 72 7d 00 45 4e 44"
+  },
+  "tools": [
+    "hex"
+  ],
+  "flag_sha256": "eb6255e07e1693887428b1bd981b0bc0f7257c465fec915131188187e1d714eb"
+}

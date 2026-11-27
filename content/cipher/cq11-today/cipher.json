@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "cq11-today",
+  "type": "cipher-level",
+  "order": 11,
+  "chapter": "today",
+  "cipher": "rsa",
+  "ciphertext": "3983 7574 7251 74 3125",
+  "points": 120,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "encoding-vs-encryption"
+    ]
+  },
+  "flag_sha256": "b2126f0e4769d7c2923de1193459288381264344e98d1665ab876c0a90676fd8"
+}

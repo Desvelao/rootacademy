@@ -1,0 +1,4 @@
+{
+  "title": "Network segmentation",
+  "body": "Segmentation splits a network into zones so an attacker who gets into one machine cannot reach everything. A flat network lets a worm or ransomware spread from a single laptop to every server.\n\nDefenders: put servers, staff PCs and guest devices in separate zones, allow only the traffic each zone needs, and watch the links between zones.\n\nHow to spot it: if scanning from a guest or staff machine lists the servers, the network is flat. In the tower defense map, a link that attackers can walk along is a route; remove or guard routes that do not need to exist."
+}

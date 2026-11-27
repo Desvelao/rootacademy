@@ -1,0 +1,4 @@
+{
+  "title": "Hex y binario",
+  "body": "Los equipos guardan bytes. Hex escribe cada byte con dos caracteres (A = 41). Los volcados de archivos en hex son como los analistas leen datos crudos, y revertirlos es solo una tabla, no un descifrado.\n\nLa forense suele empezar mirando los bytes, no lo que muestra un programa.\n\nCómo detectarlo: largas tiradas de pares de 0-9 y a-f, a veces agrupados de ocho en ocho o de dieciséis en dieciséis. Decodifica de dos en dos caracteres: 48 65 6C 6C 6F es Hello. La herramienta Hex hace la consulta de la tabla por ti."
+}

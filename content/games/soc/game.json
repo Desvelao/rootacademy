@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "id": "soc",
+  "engine": "soc",
+  "order": 2,
+  "contentDir": "soc",
+  "icon": "shield"
+}

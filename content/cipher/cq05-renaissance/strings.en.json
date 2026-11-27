@@ -1,0 +1,8 @@
+{
+  "title": "Which word is the key?",
+  "prompt": "The key is one of: COAL, IRON, GOLD, TIN, ZINC. Try them with the Vigenère tool and see which gives words.",
+  "hint.1": "Try each candidate key in turn.",
+  "hint.2": "Only one makes readable text.",
+  "hint.3": "The key has four letters: that leaves COAL, IRON and GOLD.",
+  "walkthrough": "The key is IRON."
+}

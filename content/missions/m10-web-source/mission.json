@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "id": "m10-web-source",
+  "type": "terminal-mission",
+  "order": 10,
+  "difficulty": 3,
+  "points": 200,
+  "skills": {
+    "web": 25
+  },
+  "unlocks": {
+    "codex": [
+      "sql-injection-basics"
+    ]
+  },
+  "startHost": "web",
+  "startUser": "www",
+  "hosts": [
+    {
+      "ip": "10.0.7.2",
+      "name": "web",
+      "services": [
+        "http"
+      ],
+      "files": {
+        "/var/www/login.php": {
+          "text": "<?php\n// login.php - Halcyon customer portal\n$user = $_POST['user'];\n$pass = $_POST['pass'];\n$q = \"SELECT * FROM users WHERE name='\" . $user . \"' AND pass='\" . $pass . \"'\";\n// dev note: user=admin'-- skips the password check (fix before release!)\n$row = db_query($q);\nif ($row) { header('Location: /admin/'); }\n",
+          "owner": "www"
+        },
+        "/var/www/index.html": {
+          "text": "<h1>Halcyon portal</h1>",
+          "owner": "www"
+        },
+        "/var/www/admin/notes.txt": {
+          "text": "admin notes: flag{never_trust_input}",
+          "owner": "www"
+        }
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "grep",
+      "on": "run",
+      "target": "grep"
+    },
+    {
+      "id": "src",
+      "on": "read",
+      "target": "web:/var/www/login.php"
+    },
+    {
+      "id": "notes",
+      "on": "read",
+      "target": "web:/var/www/admin/notes.txt"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "50b07be7e7ac6a60f5e5e75683d680b2be72f81a424ba1fbf22e33dcc81312fc",
+  "traceLimit": 70
+}

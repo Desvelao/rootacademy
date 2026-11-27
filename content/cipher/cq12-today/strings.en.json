@@ -1,0 +1,8 @@
+{
+  "title": "The last message",
+  "prompt": "A longer key (n=11413, e=3) and a longer message. Small primes still fall to a computer in microseconds.",
+  "hint.1": "Use the RSA tool with n=11413 and e=3.",
+  "hint.2": "It still factors instantly.",
+  "hint.3": "Real keys are 2048 bits: that is why they are safe today.",
+  "walkthrough": "The message is SECURE."
+}

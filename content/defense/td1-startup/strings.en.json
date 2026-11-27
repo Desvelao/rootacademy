@@ -1,0 +1,15 @@
+{
+  "title": "Halcyon: the startup network",
+  "brief": "Halcyon Corp started small. Protect the database from everything that comes in from the internet. Tap a node to build a defense, then start the wave.",
+  "debrief": "Each defense only counters certain attacks. Matching them is the whole game: this is defense in depth.",
+  "hint.1": "Floods (DDoS) are stopped by a firewall. Phishing ignores firewalls: it needs an email filter.",
+  "hint.2": "Password guessing is stopped by MFA. Worms need a patched machine.",
+  "hint.3": "Place the defense on a node the attack passes through, not only on the target.",
+  "walkthrough": "Wave 1 firewall on the router, wave 2 email filter on the mail server, wave 3 MFA on the router, wave 4 patch the laptop.",
+  "node.internet": "Internet",
+  "node.router": "Router",
+  "node.web": "Web server",
+  "node.mail": "Mail server",
+  "node.pc": "Laptop",
+  "node.db": "Database"
+}

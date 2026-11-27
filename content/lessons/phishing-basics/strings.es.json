@@ -1,0 +1,4 @@
+{
+  "title": "Fundamentos de phishing",
+  "body": "El phishing engaña a las personas para obtener acceso. Señales: urgencia, un dominio parecido (halcyon-c0rp.com), un enlace cuya dirección real difiere del texto, adjuntos inesperados, petición de contraseñas.\n\nDefensa: comprueba el dominio real del remitente, revisa los enlaces, nunca inicies sesión desde un enlace de correo y usa MFA y filtros.\n\nCómo detectarlo: compara el dominio del remitente letra a letra (0 por o, rn por m), mira a dónde lleva realmente un enlace y pregúntate si el mensaje te empuja a actuar deprisa o a saltarte el proceso habitual. En un turno SOC, cada uno de estos es una pista."
+}

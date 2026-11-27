@@ -1,0 +1,8 @@
+{
+  "title": "Un volcado crudo",
+  "prompt": "Un analista pegó el volcado hex de un archivo pequeño. Parte es texto legible.",
+  "hint.1": "Decodifica todo el volcado.",
+  "hint.2": "Los bytes de control (00, 01) aparecen como caracteres raros. Ignóralos.",
+  "hint.3": "Busca flag{...} en el texto decodificado.",
+  "walkthrough": "Decodifica el volcado hex."
+}

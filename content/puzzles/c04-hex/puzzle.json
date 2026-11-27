@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "c04-hex",
+  "type": "puzzle",
+  "category": "crypto",
+  "difficulty": 1,
+  "points": 50,
+  "skills": {
+    "crypto": 10
+  },
+  "unlocks": {
+    "codex": [
+      "hex-and-binary"
+    ]
+  },
+  "files": {
+    "dump.txt": "666c61677b6865785f69735f6a7573745f62797465737d"
+  },
+  "tools": [
+    "hex"
+  ],
+  "flag_sha256": "b6820c86016505378326344a630c8cbfb69385c8b1cd9ef402e2aee0976e785c"
+}

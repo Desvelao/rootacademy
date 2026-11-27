@@ -1,0 +1,4 @@
+{
+  "title": "Hidden in plain sight",
+  "body": "Compiled programs and data files keep readable text inside them. The strings tool prints it. Anything embedded in a file (keys, passwords, URLs) can be found this way.\n\nDefenders: never hard-code secrets in programs, and scan builds and uploads for leftovers.\n\nHow to spot it: cat on a binary prints noise, but strings keeps only runs of readable characters. Look for things shaped like flag{...}, passwords, paths and web addresses in its output."
+}

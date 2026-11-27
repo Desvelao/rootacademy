@@ -1,0 +1,8 @@
+{
+  "title": "Looks scrambled",
+  "prompt": "This message was found on a sticky note. It ends with = signs. What does it say?",
+  "hint.1": "Letters, digits and a trailing = are typical of Base64.",
+  "hint.2": "Use the base64 tool in decode mode.",
+  "hint.3": "The decoded text is the flag.",
+  "walkthrough": "Decode the text with Base64."
+}

@@ -1,0 +1,12 @@
+{
+  "title": "La copia olvidada",
+  "brief": "Un desarrollador dejó su acceso en la wiki. Staging puede tener copias viejas con secretos.",
+  "hint.1": "La nota de tu carpeta tiene un acceso. Usa ssh dev@staging e introduce la contraseña cuando la pida.",
+  "hint.2": "Las copias suelen estar en /var/backups.",
+  "hint.3": "El valor de api_key parece Base64. base64 -d <texto> lo decodifica.",
+  "walkthrough": "cat notes.txt, ssh dev@staging, cd /var/backups, cat config.bak, base64 -d <la clave> y envía la bandera.",
+  "debrief": "Base64 es una codificación, no cifrado: cualquiera la revierte sin clave. Los secretos en copias viejas y wikis son una fuga clásica. Defensa: no guardes secretos en copias, rota las claves y usa un gestor de secretos.",
+  "objective.login": "Entra en staging por ssh",
+  "objective.bak": "Lee la copia de seguridad olvidada",
+  "objective.flag": "Decodifica la clave y envía la bandera"
+}

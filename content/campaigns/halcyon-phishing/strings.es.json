@@ -1,0 +1,10 @@
+{
+  "title": "Halcyon: la oleada de phishing",
+  "intro": "Alguien hace phishing a los empleados de Halcyon desde un dominio parecido. Desmonta el kit, lee lo que dejaron los atacantes y frena la oleada en el SOC.",
+  "outro": "Seguiste la oleada de phishing desde el kit hasta la cola del SOC. El plan de los atacantes está claro: las tres de la madrugada.",
+  "q1.story": "Empieza donde empezaron los atacantes: desmonta el kit de phishing que engañó a un empleado.",
+  "q2.story": "Lee las cabeceras de un falso correo de facturación y descubre quién lo envió.",
+  "q3.story": "Un mensaje interceptado en el relé de correo de Halcyon está cifrado. Rómpelo.",
+  "q4.story": "Los atacantes dejaron una nota con el mismo estilo de cifrado. Lee su plan.",
+  "q5.story": "Ahora siéntate en el SOC. Con las señales del kit frescas, clasifica el correo que sigue llegando."
+}

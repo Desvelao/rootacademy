@@ -1,0 +1,12 @@
+{
+  "title": "Mapping the network",
+  "brief": "Before attacking anything, attackers look. Scan the network, read the service banners, and find the host nobody mentioned.",
+  "hint.1": "scan lists the hosts you can see. Then connect <host> <service> shows what a service says about itself.",
+  "hint.2": "One banner mentions a host that scan did not list.",
+  "hint.3": "connect staging ssh. Its banner has the flag.",
+  "walkthrough": "scan, connect files ftp, connect staging ssh, submit the flag from the banner.",
+  "debrief": "Recon is reading what systems volunteer: open ports, versions, and careless banners. Scanning is also loud, which is why the trace meter rose. Defenders: hide version details, retire old hosts and alert on scans.",
+  "objective.scan": "Scan the network for hosts",
+  "objective.connect": "Read a service banner with connect <host> <service>",
+  "objective.flag": "Submit the flag"
+}

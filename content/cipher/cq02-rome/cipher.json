@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "cq02-rome",
+  "type": "cipher-level",
+  "order": 2,
+  "chapter": "rome",
+  "cipher": "caesar",
+  "ciphertext": "ymj inj nx hfxy",
+  "points": 80,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "caesar-and-rot13"
+    ]
+  },
+  "flag_sha256": "ea956226f26cbdd5cf423db75f67e9e7f0aa0075be7b8e3db1fc080ef2d94c3a"
+}

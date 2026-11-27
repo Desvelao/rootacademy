@@ -1,0 +1,8 @@
+{
+  "title": "Encuentra el hash",
+  "prompt": "Un hash MD5 y una lista corta de palabras. ¿Qué palabra produce el hash? Envía flag{palabra}.",
+  "hint.1": "Calcula el hash de cada palabra con la herramienta md5.",
+  "hint.2": "Compara los resultados con el hash de hash.txt.",
+  "hint.3": "La palabra que coincide va dentro de flag{ }.",
+  "walkthrough": "Calcula el hash de cada palabra."
+}

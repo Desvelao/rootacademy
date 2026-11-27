@@ -1,0 +1,8 @@
+{
+  "title": "A stronger cipher",
+  "prompt": "Vigenère uses a keyword that changes the shift letter by letter. The key is ROME. Decrypt it.",
+  "hint.1": "Use the Vigenère tool and type the key.",
+  "hint.2": "The key repeats: R,O,M,E,R,O,M,E...",
+  "hint.3": "Each key letter is a Caesar shift: R = 17, O = 14, M = 12, E = 4.",
+  "walkthrough": "Decrypt with key ROME."
+}

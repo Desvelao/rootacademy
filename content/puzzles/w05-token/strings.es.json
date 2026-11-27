@@ -1,0 +1,8 @@
+{
+  "title": "Tres partes",
+  "prompt": "Un token con tres partes separadas por puntos. La parte central es la carga.",
+  "hint.1": "Toma la parte entre los puntos.",
+  "hint.2": "Añade signos = si hace falta y decodifica con Base64.",
+  "hint.3": "El JSON de la carga contiene la bandera.",
+  "walkthrough": "Decodifica la parte central."
+}

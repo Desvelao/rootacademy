@@ -1,0 +1,4 @@
+{
+  "title": "Ransomware y copias de seguridad",
+  "body": "El ransomware cifra tus archivos y pide un pago por la clave. Pagar no garantiza recuperarlos.\n\nDefensa: mantén copias probadas, sin conexión o inmutables, aplica parches rápido, filtra el correo malicioso y limita quién puede escribir en las unidades compartidas. Una copia que nunca has restaurado es solo una esperanza.\n\nCómo detectarlo: archivos que cambian de nombre de golpe con una extensión nueva, una nota que exige un pago, o muchos archivos modificándose a la vez en los registros. Aísla primero el equipo y luego restaura desde una copia que sepas limpia."
+}

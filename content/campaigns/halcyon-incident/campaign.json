@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "halcyon-incident",
+  "order": 3,
+  "steps": [
+    {
+      "id": "r1",
+      "activity": "m12-incident",
+      "requires": [],
+      "story": "r1.story"
+    },
+    {
+      "id": "r2",
+      "activity": "soc-day-8",
+      "requires": [
+        "r1"
+      ],
+      "story": "r2.story"
+    },
+    {
+      "id": "r3",
+      "activity": "soc-day-10",
+      "requires": [
+        "r2"
+      ],
+      "story": "r3.story"
+    },
+    {
+      "id": "r4",
+      "activity": "td1-startup",
+      "requires": [],
+      "story": "r4.story"
+    },
+    {
+      "id": "r5",
+      "activity": "td3-halcyon",
+      "requires": [
+        "r3",
+        "r4"
+      ],
+      "story": "r5.story"
+    }
+  ]
+}

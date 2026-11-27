@@ -1,0 +1,8 @@
+{
+  "title": "Factor it yourself",
+  "prompt": "The public key is n=8633, e=5. Nobody gave you the primes: factor n.",
+  "hint.1": "Trial division: try dividing n by 2, 3, 5, 7...",
+  "hint.2": "The RSA tool factors it.",
+  "hint.3": "The factors are 89 and 97.",
+  "walkthrough": "Decrypt each number with the private exponent."
+}

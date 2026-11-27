@@ -1,0 +1,8 @@
+{
+  "title": "Counting letters",
+  "prompt": "A longer text. Instead of guessing, count letters: in English the most common letter is E.",
+  "hint.1": "Use the frequency tool: which letter appears most?",
+  "hint.2": "If that letter stands for E, the shift is the distance from E to it.",
+  "hint.3": "The most frequent letter is P (E+11)... check your count and decode.",
+  "walkthrough": "Shift 11 backwards."
+}

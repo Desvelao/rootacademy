@@ -1,0 +1,7 @@
+cd /srv/hr
+ls -l
+cat payroll.csv
+cat README
+ls old
+cat old/payroll.bak
+submit flag{backups_ignore_permissions}

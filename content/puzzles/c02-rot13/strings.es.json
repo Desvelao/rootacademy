@@ -1,0 +1,8 @@
+{
+  "title": "Trece pasos",
+  "prompt": "Un colega 'cifró' la bandera rotando letras. Las llaves quedaron en su sitio.",
+  "hint.1": "La palabra flag aparece como synt. Es un desplazamiento de 13.",
+  "hint.2": "ROT13 se deshace solo: aplica la herramienta rot13.",
+  "hint.3": "Aplica rot13 a todo el texto.",
+  "walkthrough": "Aplica ROT13 al texto."
+}

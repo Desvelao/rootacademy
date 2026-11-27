@@ -1,0 +1,8 @@
+{
+  "title": "Trust no cookie",
+  "prompt": "The server trusts a cookie the browser controls. What does it contain, and what is behind the admin panel?",
+  "hint.1": "Decode the session cookie. It is not encrypted.",
+  "hint.2": "The admin panel hides an encoded flag in the response too. Decode it.",
+  "hint.3": "The server should never trust role from the client. Decode the flag text.",
+  "walkthrough": "Decode the flag text in the response."
+}

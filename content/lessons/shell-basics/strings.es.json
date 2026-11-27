@@ -1,0 +1,4 @@
+{
+  "title": "La terminal en tres comandos",
+  "body": "Una terminal permite hablar con el equipo en texto. ls lista archivos, cd cambia de carpeta, cat imprime un archivo. Con -a, ls muestra los archivos ocultos (con punto). Oculto no es secreto: el nombre de un archivo nunca lo protege.\n\nEn la vida real: atacantes y administradores empiezan mirando alrededor. Defensa: protege los datos con permisos y cifrado, no con nombres raros.\n\nPruébalo: ls muestra la carpeta, ls -a muestra también los archivos ocultos, cd entra en una carpeta, cat imprime un archivo. Añade una tubería para encadenar herramientas: cat notas.txt | grep password muestra solo las líneas que coinciden."
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Julius says hello",
+  "prompt": "Text shifted by a small number of letters. The first word is flag, shifted.",
+  "hint.1": "The first word should be flag. Compare it letter by letter: how far did each one move?",
+  "hint.2": "Only 25 shifts exist: try them all with the caesar tool.",
+  "hint.3": "The shift is 3 (decode with -3).",
+  "walkthrough": "Caesar shift 3 backwards."
+}

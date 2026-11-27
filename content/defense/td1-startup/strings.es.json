@@ -1,0 +1,15 @@
+{
+  "title": "Halcyon: la red de la startup",
+  "brief": "Halcyon Corp empezó pequeña. Protege la base de datos de todo lo que llega desde internet. Toca un nodo para construir una defensa y luego inicia la oleada.",
+  "debrief": "Cada defensa solo contrarresta ciertos ataques. Combinarlas bien es todo el juego: es la defensa en profundidad.",
+  "hint.1": "Las inundaciones (DDoS) las para un cortafuegos. El phishing ignora los cortafuegos: necesita un filtro de correo.",
+  "hint.2": "Los intentos de adivinar contraseñas los frena el MFA. Los gusanos necesitan un equipo parcheado.",
+  "hint.3": "Coloca la defensa en un nodo por el que pase el ataque, no solo en el objetivo.",
+  "walkthrough": "Oleada 1 cortafuegos en el router, oleada 2 filtro de correo en el servidor de correo, oleada 3 MFA en el router, oleada 4 parchea el portátil.",
+  "node.internet": "Internet",
+  "node.router": "Router",
+  "node.web": "Servidor web",
+  "node.mail": "Servidor de correo",
+  "node.pc": "Portátil",
+  "node.db": "Base de datos"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "The web trail",
+  "intro": "Websites leak more than their owners think. Follow five small web puzzles from a strange address to a forged token.",
+  "outro": "You read what the address, the robots file, the page source, a cookie and a token gave away. Servers must never trust what the browser sends.",
+  "w1.story": "A link full of percent signs. Decode it to see where it really goes.",
+  "w2.story": "A robots.txt file lists what the site does not want searched. That is where to look.",
+  "w3.story": "Developers leave notes in the page source. Read it.",
+  "w4.story": "A cookie that just says who you are. Could you say something else?",
+  "w5.story": "A token in three parts. Read each one."
+}

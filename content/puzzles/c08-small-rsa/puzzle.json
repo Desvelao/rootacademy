@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "id": "c08-small-rsa",
+  "type": "puzzle",
+  "category": "crypto",
+  "difficulty": 3,
+  "points": 100,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "encoding-vs-encryption"
+    ]
+  },
+  "files": {
+    "public_key.txt": "n = 10403\ne = 7",
+    "message.txt": "6847 3482 7992 8024 5304 4367"
+  },
+  "tools": [],
+  "flag_sha256": "3c56b51e61a4d8bf9c969899c5fcc8eb61f1a5675a6a013d43f78b258d58e8b4"
+}

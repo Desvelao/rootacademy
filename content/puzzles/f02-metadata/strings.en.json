@@ -1,0 +1,8 @@
+{
+  "title": "What the photo knows",
+  "prompt": "A photo's metadata includes more than the picture. One field looks odd.",
+  "hint.1": "Fields like GPS and Camera are normal. Which is encoded?",
+  "hint.2": "The Comment field is Base64.",
+  "hint.3": "Decode the comment.",
+  "walkthrough": "Decode the Comment field."
+}

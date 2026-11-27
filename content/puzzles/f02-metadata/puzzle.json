@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "f02-metadata",
+  "type": "puzzle",
+  "category": "forensics",
+  "difficulty": 1,
+  "points": 50,
+  "skills": {
+    "linux": 10,
+    "crypto": 5
+  },
+  "unlocks": {
+    "codex": [
+      "hidden-in-plain-sight"
+    ]
+  },
+  "files": {
+    "photo.jpg.meta": "File: photo.jpg\nCamera: PhoneX 12\nGPS: 40.4168 N, 3.7038 W\nSoftware: PhotoEditor 3.1\nComment: ZmxhZ3ttZXRhZGF0YV9yZW1lbWJlcnN9"
+  },
+  "tools": [
+    "base64"
+  ],
+  "flag_sha256": "ef2c721b6b4d28d8f8b425b3546e9130fe23e2226023753659756c3b9e89c3aa"
+}

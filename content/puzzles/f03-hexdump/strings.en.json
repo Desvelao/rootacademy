@@ -1,0 +1,8 @@
+{
+  "title": "A raw dump",
+  "prompt": "An analyst pasted a hex dump of a small file. Part of it is readable text.",
+  "hint.1": "Decode the whole dump.",
+  "hint.2": "Control bytes (00, 01) appear as odd characters. Ignore them.",
+  "hint.3": "Look for flag{...} in the decoded text.",
+  "walkthrough": "Hex-decode the dump."
+}

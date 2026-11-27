@@ -1,0 +1,8 @@
+{
+  "title": "Five suspect settings",
+  "prompt": "One of these starting positions is the real day key: CAT, BAT, RAT, HAT, MAT. Test each until the text makes sense.",
+  "hint.1": "Try each candidate in the Enigma tool.",
+  "hint.2": "Wrong settings give gibberish.",
+  "hint.3": "The pet is not a cat, bat, hat or mat.",
+  "walkthrough": "Settings RAT."
+}

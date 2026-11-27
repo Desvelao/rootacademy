@@ -1,0 +1,4 @@
+{
+  "title": "File permissions",
+  "body": "ls -l shows permissions like -rw-r--r--: owner, group, others, each with read, write, execute. Mode 600 means only the owner can read and write; 644 lets everyone read.\n\nPermissions protect one file, not its copies. A readable backup of a private file leaks it.\n\nDefenders: least privilege, and give backups the same protection as the original.\n\nHow to spot it: run ls -l and look for a final r in the third group (others can read) on files that should be private, and for backup or copy files with looser modes than the original."
+}

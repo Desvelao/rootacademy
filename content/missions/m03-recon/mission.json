@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "id": "m03-recon",
+  "type": "terminal-mission",
+  "order": 3,
+  "difficulty": 1,
+  "points": 100,
+  "skills": {
+    "network": 25
+  },
+  "unlocks": {
+    "codex": [
+      "recon-scanning"
+    ]
+  },
+  "startHost": "laptop",
+  "startUser": "guest",
+  "hosts": [
+    {
+      "ip": "10.0.7.10",
+      "name": "laptop",
+      "services": [],
+      "files": {
+        "/home/guest/scope.txt": {
+          "text": "Scope: the 10.0.7.0 network. Be quiet: the trace meter rises with noisy commands.",
+          "owner": "guest"
+        }
+      }
+    },
+    {
+      "ip": "10.0.7.2",
+      "name": "web",
+      "services": [
+        "http",
+        "ssh"
+      ],
+      "banners": {
+        "http": "HTTP/1.1 200 OK\nServer: nginx/1.18\nX-Powered-By: PHP/7.4"
+      }
+    },
+    {
+      "ip": "10.0.7.3",
+      "name": "files",
+      "services": [
+        "ftp"
+      ],
+      "banners": {
+        "ftp": "220 Halcyon FTP ready.\n220 Note to admins: staging box (10.0.7.9) is being retired, remove its ssh service soon."
+      }
+    },
+    {
+      "ip": "10.0.7.9",
+      "name": "staging",
+      "services": [
+        "ssh"
+      ],
+      "banners": {
+        "ssh": "SSH-2.0-OpenSSH_8.2\nAuthorized users only. Build tag: flag{banners_talk_too}"
+      },
+      "hidden": true
+    }
+  ],
+  "objectives": [
+    {
+      "id": "scan",
+      "on": "run",
+      "target": "scan"
+    },
+    {
+      "id": "connect",
+      "on": "run",
+      "target": "connect"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "0ca236e6f8c7b4b78d9900144af1bc8414c93101d913ec41ce8a183eb6371cd6",
+  "traceLimit": 100
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Números en letras",
+  "prompt": "Un script imprime caracteres a partir de una lista de números.",
+  "hint.1": "Son códigos ASCII: 102 es f.",
+  "hint.2": "Conviértelos uno a uno: 102=f, 108=l.",
+  "hint.3": "La lista completa deletrea la bandera.",
+  "walkthrough": "Convierte cada código ASCII en su carácter."
+}

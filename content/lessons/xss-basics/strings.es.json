@@ -1,0 +1,4 @@
+{
+  "title": "Cross-site scripting (XSS): scripts entre sitios",
+  "body": "El XSS ocurre cuando una página muestra la entrada del usuario como HTML o script sin escaparla. Un atacante puede ejecutar código en los navegadores de otros, por ejemplo para robar una cookie de sesión.\n\nDefensa: escapa la salida, usa una política de seguridad de contenido y marca las cookies de sesión como HttpOnly.\n\nCómo detectarlo: escribe algo como <b>prueba</b> en un comentario o buscador; si aparece en negrita en lugar de como texto plano, la página no escapa la salida. Las pruebas reales usan scripts, pero el texto en negrita demuestra el fallo."
+}

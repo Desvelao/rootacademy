@@ -1,0 +1,4 @@
+{
+  "title": "Reconnaissance and scanning",
+  "body": "Before an attack comes recon: which hosts exist, which services are open, which versions run. A scan asks each address and port. Service banners often reveal software and version.\n\nScanning is noisy and can be detected. Defenders: hide version details, close unused ports, remove retired hosts and alert on scans.\n\nHow to spot it: many connection attempts to different ports or addresses in a short time. Use scan and connect to see what an attacker sees, and note which banners give away software versions."
+}

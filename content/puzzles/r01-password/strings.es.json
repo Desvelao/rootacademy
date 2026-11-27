@@ -1,0 +1,8 @@
+{
+  "title": "La comprobación fácil",
+  "prompt": "Un programa pequeño comprueba una contraseña. ¿Qué revela?",
+  "hint.1": "Lee las dos funciones.",
+  "hint.2": "reveal() arma la bandera con dos partes.",
+  "hint.3": "Une las dos cadenas.",
+  "walkthrough": "Concatena las partes de reveal()."
+}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "cq07-wwii",
+  "type": "cipher-level",
+  "order": 7,
+  "chapter": "wwii",
+  "cipher": "enigma",
+  "ciphertext": "KLZFM NNJAC KLBAU CFPPS FUCQ",
+  "points": 100,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "hex-and-binary"
+    ]
+  },
+  "flag_sha256": "5ede6b3500efe0036d2f537eabc7a103fa3919d9b43ef0d0f5b67f137626a5c0"
+}

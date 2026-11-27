@@ -1,0 +1,8 @@
+{
+  "title": "Numbers into letters",
+  "prompt": "A script prints characters from a list of numbers.",
+  "hint.1": "These are ASCII codes: 102 is f.",
+  "hint.2": "Convert them one by one: 102=f, 108=l.",
+  "hint.3": "The full list spells the flag.",
+  "walkthrough": "Turn each ASCII code into its character."
+}

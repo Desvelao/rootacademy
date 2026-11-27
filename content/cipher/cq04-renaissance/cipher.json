@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "cq04-renaissance",
+  "type": "cipher-level",
+  "order": 4,
+  "chapter": "renaissance",
+  "cipher": "vigenere",
+  "ciphertext": "dsqx ds mx kvq jfizxrwz",
+  "points": 80,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "caesar-and-rot13"
+    ]
+  },
+  "flag_sha256": "5eb435d8fcc65ce88b7b506973c255500e82af1219ad41fcdf5aa68eb36df00c"
+}

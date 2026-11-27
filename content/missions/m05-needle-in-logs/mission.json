@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "m05-needle-in-logs",
+  "type": "terminal-mission",
+  "order": 5,
+  "difficulty": 2,
+  "points": 150,
+  "skills": {
+    "linux": 20,
+    "defense": 10
+  },
+  "unlocks": {
+    "codex": [
+      "logs-and-detection"
+    ]
+  },
+  "startHost": "logs",
+  "startUser": "guest",
+  "hosts": [
+    {
+      "ip": "10.0.7.20",
+      "name": "logs",
+      "services": [],
+      "files": {
+        "/var/log/app.log": {
+          "text": "2026-11-02 09:00:01 INFO  service started\n2026-11-02 09:00:05 INFO  health check ok\n2026-11-02 09:03:12 INFO  user=ana login ok\n2026-11-02 09:04:40 WARN  slow query 2.4s\n2026-11-02 09:10:02 INFO  user=luis login ok\n2026-11-02 09:12:19 WARN  login failed user=ana password=flag{grep_is_your_friend}\n2026-11-02 09:12:30 INFO  user=ana login ok\n2026-11-02 09:20:44 INFO  cache cleared\n2026-11-02 09:31:08 ERROR payment gateway timeout\n2026-11-02 09:31:20 INFO  retry ok\n2026-11-02 09:45:00 INFO  nightly job finished"
+        },
+        "/var/log/README": {
+          "text": "Application logs. Do not store secrets in logs."
+        }
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "grep",
+      "on": "run",
+      "target": "grep"
+    },
+    {
+      "id": "log",
+      "on": "read",
+      "target": "logs:/var/log/app.log"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "00d86676369c49ee2a6e25f293f15a91c9e8ab96bede082a82a74460acb410b3",
+  "traceLimit": 90
+}

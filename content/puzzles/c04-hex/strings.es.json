@@ -1,0 +1,8 @@
+{
+  "title": "Dos caracteres por byte",
+  "prompt": "Una cadena de 0-9 y a-f. Cada par es un byte.",
+  "hint.1": "Pares como 66 6c 61 67 son letras ASCII.",
+  "hint.2": "Usa la herramienta hex para decodificar.",
+  "hint.3": "El texto decodificado es la bandera.",
+  "walkthrough": "Decodificación hex."
+}

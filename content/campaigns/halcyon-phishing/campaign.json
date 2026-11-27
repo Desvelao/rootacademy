@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "halcyon-phishing",
+  "order": 2,
+  "steps": [
+    {
+      "id": "q1",
+      "activity": "m09-phishing-kit",
+      "requires": [],
+      "story": "q1.story"
+    },
+    {
+      "id": "q2",
+      "activity": "f04-headers",
+      "requires": [
+        "q1"
+      ],
+      "story": "q2.story"
+    },
+    {
+      "id": "q3",
+      "activity": "c07-vigenere",
+      "requires": [
+        "q1"
+      ],
+      "story": "q3.story"
+    },
+    {
+      "id": "q4",
+      "activity": "cq13-halcyon-note",
+      "requires": [
+        "q1"
+      ],
+      "story": "q4.story"
+    },
+    {
+      "id": "q5",
+      "activity": "soc-day-4",
+      "requires": [
+        "q1"
+      ],
+      "story": "q5.story"
+    }
+  ]
+}

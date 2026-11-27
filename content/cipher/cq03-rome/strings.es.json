@@ -1,0 +1,8 @@
+{
+  "title": "Contando letras",
+  "prompt": "Un texto más largo. En vez de adivinar, cuenta letras: en inglés la letra más común es la E.",
+  "hint.1": "Usa la herramienta de frecuencias: ¿qué letra aparece más?",
+  "hint.2": "Si esa letra representa la E, el desplazamiento es la distancia de E a ella.",
+  "hint.3": "Comprueba tu recuento y decodifica con ese desplazamiento.",
+  "walkthrough": "Desplazamiento 11 hacia atrás."
+}

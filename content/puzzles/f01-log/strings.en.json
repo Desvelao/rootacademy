@@ -1,0 +1,8 @@
+{
+  "title": "Who is knocking?",
+  "prompt": "Find the address that failed to open /admin and then got in. Submit flag{ip}.",
+  "hint.1": "Internal addresses start with 10.0.7.",
+  "hint.2": "One outside address asked for /admin repeatedly.",
+  "hint.3": "It failed with 401 and then a POST returned 200.",
+  "walkthrough": "The IP with the 401, 401, 200 pattern."
+}

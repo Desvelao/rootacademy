@@ -1,0 +1,8 @@
+{
+  "title": "Layers in the metadata",
+  "prompt": "A photo's metadata has one field that looks like random digits. Peel it layer by layer.",
+  "hint.1": "Only UserComment is unusual. It uses only 0-9 and a-f.",
+  "hint.2": "Decode it as hex first. The result is not the flag yet.",
+  "hint.3": "The decoded text ends with = signs: that is Base64. Decode it again.",
+  "walkthrough": "Hex-decode UserComment, then Base64-decode the result."
+}

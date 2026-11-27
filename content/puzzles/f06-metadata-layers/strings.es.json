@@ -1,0 +1,8 @@
+{
+  "title": "Capas en los metadatos",
+  "prompt": "Los metadatos de una foto tienen un campo que parece una serie de dígitos al azar. Pélalo capa a capa.",
+  "hint.1": "Solo UserComment es raro. Usa solo 0-9 y a-f.",
+  "hint.2": "Decodifícalo primero como hexadecimal. El resultado aún no es la bandera.",
+  "hint.3": "El texto decodificado acaba en signos =: es Base64. Decodifícalo otra vez.",
+  "walkthrough": "Decodifica UserComment de hexadecimal y el resultado de Base64."
+}

@@ -1,0 +1,180 @@
+{
+  "schema": 1,
+  "id": "td3-halcyon",
+  "type": "defense-map",
+  "order": 3,
+  "points": 250,
+  "skills": {
+    "defense": 45,
+    "network": 15
+  },
+  "unlocks": {
+    "codex": [
+      "defense-in-depth",
+      "network-segmentation"
+    ]
+  },
+  "integrity": 3,
+  "startMoney": 120,
+  "income": 55,
+  "nodes": [
+    {
+      "id": "internet",
+      "x": 0.05,
+      "y": 0.5
+    },
+    {
+      "id": "edge",
+      "x": 0.22,
+      "y": 0.5
+    },
+    {
+      "id": "dmz",
+      "x": 0.4,
+      "y": 0.2
+    },
+    {
+      "id": "app",
+      "x": 0.62,
+      "y": 0.2
+    },
+    {
+      "id": "mail",
+      "x": 0.4,
+      "y": 0.8
+    },
+    {
+      "id": "office",
+      "x": 0.6,
+      "y": 0.8
+    },
+    {
+      "id": "hr",
+      "x": 0.8,
+      "y": 0.8
+    },
+    {
+      "id": "db",
+      "x": 0.94,
+      "y": 0.5
+    }
+  ],
+  "links": [
+    [
+      "internet",
+      "edge"
+    ],
+    [
+      "edge",
+      "dmz"
+    ],
+    [
+      "edge",
+      "mail"
+    ],
+    [
+      "dmz",
+      "app"
+    ],
+    [
+      "app",
+      "db"
+    ],
+    [
+      "mail",
+      "office"
+    ],
+    [
+      "office",
+      "hr"
+    ],
+    [
+      "hr",
+      "db"
+    ]
+  ],
+  "spawn": "internet",
+  "target": "db",
+  "waves": [
+    [
+      {
+        "at": 10,
+        "attack": "ddos",
+        "count": 3,
+        "gap": 15
+      },
+      {
+        "at": 60,
+        "attack": "bruteforce",
+        "count": 2,
+        "gap": 15
+      }
+    ],
+    [
+      {
+        "at": 10,
+        "attack": "phishing",
+        "count": 3,
+        "gap": 20,
+        "via": "mail"
+      },
+      {
+        "at": 40,
+        "attack": "worm",
+        "count": 2,
+        "gap": 10,
+        "from": "office"
+      }
+    ],
+    [
+      {
+        "at": 10,
+        "attack": "ransomware",
+        "count": 2,
+        "gap": 30,
+        "via": "mail"
+      },
+      {
+        "at": 50,
+        "attack": "ddos",
+        "count": 3,
+        "gap": 15
+      }
+    ],
+    [
+      {
+        "at": 10,
+        "attack": "phishing",
+        "count": 2,
+        "gap": 20,
+        "via": "mail"
+      },
+      {
+        "at": 30,
+        "attack": "worm",
+        "count": 3,
+        "gap": 10,
+        "from": "office"
+      },
+      {
+        "at": 60,
+        "attack": "bruteforce",
+        "count": 3,
+        "gap": 15
+      },
+      {
+        "at": 100,
+        "attack": "ransomware",
+        "count": 1,
+        "gap": 10,
+        "via": "mail"
+      },
+      {
+        "at": 120,
+        "attack": "ddos",
+        "count": 2,
+        "gap": 15
+      }
+    ]
+  ]
+}

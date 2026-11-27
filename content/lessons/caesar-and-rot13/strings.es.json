@@ -1,0 +1,4 @@
+{
+  "title": "César y ROT13",
+  "body": "El cifrado César desplaza cada letra un número fijo. ROT13 desplaza 13, así que aplicarlo dos veces devuelve el original. Con solo 25 desplazamientos posibles, se pueden probar todos: es fuerza bruta.\n\nLos cifrados históricos enseñan por qué importan un espacio de claves grande y un buen diseño.\n\nCómo detectarlo: el texto cifrado conserva la longitud de las palabras y una misma letra aparece donde estaba la misma letra original. La letra más frecuente suele ser la E desplazada. Prueba la herramienta de frecuencias y revisa cada desplazamiento hasta que una palabra se lea con normalidad."
+}

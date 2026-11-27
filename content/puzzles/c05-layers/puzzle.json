@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "c05-layers",
+  "type": "puzzle",
+  "category": "crypto",
+  "difficulty": 2,
+  "points": 70,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "encoding-vs-encryption"
+    ]
+  },
+  "files": {
+    "layers.txt": "NWE2ZDc4Njg1YTMzNzQ3MzU5NTg2YzZjNjM2ZTRlNjY2MjMyNWE2NjVhNTczNTZhNjIzMjUyNzA2MjZkNjQzOQ=="
+  },
+  "tools": [
+    "base64",
+    "hex"
+  ],
+  "flag_sha256": "c5e898d40589069dd37514423dca1030592235b0febe8e1bb534d46340e0783a"
+}

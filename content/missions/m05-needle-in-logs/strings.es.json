@@ -1,0 +1,12 @@
+{
+  "title": "Una aguja en los registros",
+  "brief": "El registro es largo y una línea filtra una contraseña. Usa grep para encontrarla en vez de leer todo.",
+  "hint.1": "grep <palabra> <archivo> muestra solo las líneas que la contienen.",
+  "hint.2": "Prueba grep -i password /var/log/app.log. -i ignora mayúsculas y minúsculas.",
+  "hint.3": "La línea del inicio de sesión fallido contiene la contraseña. Esa es la bandera.",
+  "walkthrough": "grep -i password /var/log/app.log y envía el valor.",
+  "debrief": "Los registros son una mina de oro para defensores y atacantes. Aquí un inicio de sesión fallido guardó la contraseña en texto claro. Defensa: nunca registres secretos y usa búsquedas para revisar rápido.",
+  "objective.grep": "Busca en el registro con grep",
+  "objective.log": "Lee app.log",
+  "objective.flag": "Envía la bandera"
+}

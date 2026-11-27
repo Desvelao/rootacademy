@@ -1,0 +1,8 @@
+{
+  "title": "¿Qué palabra es la clave?",
+  "prompt": "La clave es una de: COAL, IRON, GOLD, TIN, ZINC. Pruébalas con la herramienta Vigenère y mira cuál da palabras.",
+  "hint.1": "Prueba cada clave candidata.",
+  "hint.2": "Solo una produce texto legible.",
+  "hint.3": "La clave tiene cuatro letras: quedan COAL, IRON y GOLD.",
+  "walkthrough": "La clave es IRON."
+}

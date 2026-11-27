@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "id": "cipher",
+  "engine": "cipher",
+  "order": 3,
+  "contentDir": "cipher",
+  "icon": "lock"
+}

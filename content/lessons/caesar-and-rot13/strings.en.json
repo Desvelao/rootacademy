@@ -1,0 +1,4 @@
+{
+  "title": "Caesar and ROT13",
+  "body": "A Caesar cipher shifts every letter by a fixed number. ROT13 shifts by 13, so applying it twice returns the original. With only 25 possible shifts, you can try them all: this is brute force.\n\nHistorical ciphers teach why a big key space and good design matter.\n\nHow to spot it: the ciphertext keeps the word lengths and the same letter appears wherever the same plain letter was. The most frequent letter is usually the shifted E. Try the Frequency tool, then check each shift until a word reads normally."
+}

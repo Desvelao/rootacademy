@@ -1,0 +1,3 @@
+ls /var/log
+grep -i password /var/log/app.log
+submit flag{grep_is_your_friend}

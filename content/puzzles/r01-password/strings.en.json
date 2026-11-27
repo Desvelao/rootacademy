@@ -1,0 +1,8 @@
+{
+  "title": "The easy check",
+  "prompt": "A tiny program checks a password. What does it reveal?",
+  "hint.1": "Read both functions.",
+  "hint.2": "reveal() builds the flag from two parts.",
+  "hint.3": "Join the two strings.",
+  "walkthrough": "Concatenate the parts in reveal()."
+}

@@ -1,0 +1,17 @@
+{
+  "title": "A history of secrets",
+  "intro": "Follow two thousand years of secret writing, from a general's shifted letters to the keys that protect your phone today.",
+  "outro": "You broke a Roman shift, a Renaissance keyword, a wartime Enigma and a modern public key. Each fell to the same idea: find the weakness in how the key is used.",
+  "h1.story": "Rome: a message shifted by a few letters. Try every shift.",
+  "h2.story": "Another Roman dispatch. Letter counts give the shift away.",
+  "h3.story": "A longer Roman order: confirm your shift on the whole text.",
+  "h4.story": "The Renaissance brings keywords. One shift is no longer enough.",
+  "h5.story": "Find the length of the keyword before you try to guess it.",
+  "h6.story": "A longer secret, protected by a longer keyword.",
+  "h7.story": "Wartime: the Enigma machine scrambles every letter differently.",
+  "h8.story": "The same machine, a different starting position.",
+  "h9.story": "Operators were careless. Use what you know about the message.",
+  "h10.story": "Today: public keys. Anyone can lock, only the key owner can unlock.",
+  "h11.story": "Small numbers are easy to factor. That is the weakness.",
+  "h12.story": "Put it all together and read the final message."
+}

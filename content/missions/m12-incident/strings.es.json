@@ -1,0 +1,13 @@
+{
+  "title": "Respuesta a incidentes",
+  "brief": "Ahora eres el defensor. La cuenta admin de Halcyon se usó a las 3 de la madrugada. Averigua quién fue con el registro de autenticación.",
+  "hint.1": "El manual dice qué buscar. cat /opt/ir/playbook.txt",
+  "hint.2": "grep Failed /var/log/auth.log muestra los intentos. ¿Qué IP se repite?",
+  "hint.3": "grep Accepted muestra quién entró. La IP que falló y luego tuvo éxito es la atacante.",
+  "walkthrough": "grep Accepted /var/log/auth.log. El atacante es 203.0.113.50. Envía flag{203.0.113.50}.",
+  "debrief": "Muchos fallos desde una dirección seguidos de un acierto es fuerza bruta. Lo detectaste solo con registros. Defensa: limita intentos, exige MFA, alerta este patrón y combina controles para que un fallo no sea fatal (defensa en profundidad).",
+  "objective.playbook": "Lee el manual de incidentes",
+  "objective.grep": "Busca en el registro de autenticación con grep",
+  "objective.log": "Lee auth.log",
+  "objective.flag": "Envía flag{<ip del atacante>}"
+}

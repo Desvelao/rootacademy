@@ -1,0 +1,8 @@
+{
+  "title": "Un cifrado más fuerte",
+  "prompt": "Vigenère usa una palabra clave que cambia el desplazamiento letra a letra. La clave es ROME. Descífralo.",
+  "hint.1": "Usa la herramienta Vigenère e introduce la clave.",
+  "hint.2": "La clave se repite: R,O,M,E,R,O,M,E...",
+  "hint.3": "Cada letra de la clave es un desplazamiento César: R = 17, O = 14, M = 12, E = 4.",
+  "walkthrough": "Descifra con la clave ROME."
+}

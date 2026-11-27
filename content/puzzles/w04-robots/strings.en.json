@@ -1,0 +1,8 @@
+{
+  "title": "Do not enter",
+  "prompt": "robots.txt asks search engines to stay out of some paths. Does it stop people?",
+  "hint.1": "The Disallow lines list paths the owner wants hidden.",
+  "hint.2": "Open the interesting path listed.",
+  "hint.3": "Read notes.txt in the private backup folder.",
+  "walkthrough": "robots.txt lists hidden folders."
+}

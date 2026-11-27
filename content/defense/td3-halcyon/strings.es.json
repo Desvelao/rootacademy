@@ -1,0 +1,17 @@
+{
+  "title": "Halcyon: la red real",
+  "brief": "Ahora toda la empresa: web pública, correo, oficinas y RR. HH., todo conectado a la misma base de datos. Aparecerán los cinco tipos de ataque. El dinero es limitado: construye solo lo que cada oleada necesita.",
+  "debrief": "Mira cada ruta: ¿por dónde pasan los ataques? La segmentación significa que hay varios nodos donde frenarlos.",
+  "hint.1": "El perímetro ve todo lo que llega de internet: cortafuegos y MFA ahí paran inundaciones e intentos de contraseña.",
+  "hint.2": "El correo necesita un filtro, la oficina un parche y la base de datos una copia.",
+  "hint.3": "Puedes vender una defensa por la mitad de su precio si necesitas dinero.",
+  "walkthrough": "Oleada 1 cortafuegos y MFA en el perímetro, oleada 2 filtro en correo y parche en la oficina, oleada 3 copia en la base de datos. La oleada 4 ya está cubierta.",
+  "node.internet": "Internet",
+  "node.edge": "Cortafuegos perimetral",
+  "node.dmz": "Web pública",
+  "node.app": "Servidor de aplicaciones",
+  "node.mail": "Pasarela de correo",
+  "node.office": "Red de oficina",
+  "node.hr": "Sistema de RR. HH.",
+  "node.db": "Base de datos central"
+}

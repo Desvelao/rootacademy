@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "m06-weak-hashes",
+  "type": "terminal-mission",
+  "order": 6,
+  "difficulty": 2,
+  "points": 150,
+  "skills": {
+    "crypto": 25,
+    "social": 5
+  },
+  "unlocks": {
+    "codex": [
+      "hashing-and-passwords"
+    ]
+  },
+  "startHost": "auth",
+  "startUser": "guest",
+  "hosts": [
+    {
+      "ip": "10.0.7.30",
+      "name": "auth",
+      "services": [],
+      "files": {
+        "/etc/shadow.txt": {
+          "text": "carlos:0571749e2ac330a7455809c6b0e7af90\nroot:652469024063a2cd98b27180ababfe3b"
+        },
+        "/opt/wordlist.txt": {
+          "text": "monkey\ndragon\nletmein\nsunshine\nqwerty\nfootball"
+        },
+        "/opt/README": {
+          "text": "Passwords are stored as MD5. Crack carlos. Submit flag{<his password>}."
+        }
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "shadow",
+      "on": "read",
+      "target": "auth:/etc/shadow.txt"
+    },
+    {
+      "id": "hash",
+      "on": "run",
+      "target": "hash"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "c682469cf7c11e2cb7a7277b66ab002888369180e82a0653b9e2bf93a17d48e7",
+  "traceLimit": 90
+}

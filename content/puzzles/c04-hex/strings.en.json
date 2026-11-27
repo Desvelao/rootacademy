@@ -1,0 +1,8 @@
+{
+  "title": "Two characters per byte",
+  "prompt": "A string of 0-9 and a-f. Each pair is one byte.",
+  "hint.1": "Pairs like 66 6c 61 67 are ASCII letters.",
+  "hint.2": "Use the hex tool to decode.",
+  "hint.3": "The decoded text is the flag.",
+  "walkthrough": "Hex decode."
+}

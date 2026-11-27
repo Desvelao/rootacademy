@@ -1,0 +1,15 @@
+{
+  "title": "The clinic",
+  "brief": "A small clinic keeps patient records in one database. Money is tighter. Ransomware arrives by email and demands a ransom for the data.",
+  "debrief": "Ransomware is beaten by backups: if you can restore, the ransom is worthless.",
+  "hint.1": "Put the backup where the ransomware ends up: the database.",
+  "hint.2": "Spend carefully: you cannot afford everything at once.",
+  "hint.3": "Reuse defenses from earlier waves; they stay in place.",
+  "walkthrough": "Wave 1 MFA at the gateway, wave 2 filter on mail and backup on the database, wave 3 patch the PC and firewall the gateway. Wave 4 is already covered.",
+  "node.internet": "Internet",
+  "node.gateway": "Gateway",
+  "node.mail": "Reception mail",
+  "node.ehr": "Records server",
+  "node.pc1": "Front desk PC",
+  "node.db": "Patient database"
+}

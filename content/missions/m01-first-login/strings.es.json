@@ -1,0 +1,13 @@
+{
+  "title": "Primer acceso",
+  "brief": "Halcyon Corp te contrató para una prueba de seguridad. Tu cuenta en el portátil es guest. Mira alrededor, lee lo que hay y encuentra la bandera.",
+  "hint.1": "Escribe ls para listar archivos y cat <archivo> para leer uno.",
+  "hint.2": "Los archivos ocultos empiezan por punto. ls -a los muestra.",
+  "hint.3": "cd .hidden y luego cat flag.txt. Termina con: submit <bandera>.",
+  "walkthrough": "ls, cat readme.txt, ls -a, cd .hidden, cat flag.txt y envía la bandera.",
+  "debrief": "Una terminal es una forma de hacerle preguntas al equipo. ls, cd y cat bastan para explorar cualquier máquina Linux. Los archivos con punto no son secretos, solo están ocultos a la vista por defecto. Defensa: nunca protejas datos solo con nombres ocultos.",
+  "objective.list": "Lista los archivos de tu carpeta personal",
+  "objective.readme": "Lee readme.txt",
+  "objective.found": "Encuentra y lee el archivo oculto con la bandera",
+  "objective.flag": "Envía la bandera"
+}

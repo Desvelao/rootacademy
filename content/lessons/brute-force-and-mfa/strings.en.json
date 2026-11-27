@@ -1,0 +1,4 @@
+{
+  "title": "Brute force and MFA",
+  "body": "A brute-force attack tries many passwords until one works. Weak and reused passwords fall in seconds.\n\nDefenders: use long unique passwords, rate-limit and lock out repeated failures, and require multi-factor authentication (MFA) so a stolen or guessed password is not enough.\n\nHow to spot it: logs full of failed logins from one address or against many accounts, often at machine speed. Example: a 6-letter lowercase password has about 300 million combinations, which a modern computer tries in seconds; a 4-word passphrase has far more."
+}

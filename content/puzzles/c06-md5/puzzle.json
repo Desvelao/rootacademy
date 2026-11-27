@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "c06-md5",
+  "type": "puzzle",
+  "category": "crypto",
+  "difficulty": 2,
+  "points": 70,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "hashing-and-passwords"
+    ]
+  },
+  "files": {
+    "hash.txt": "md5: 8d4db54daf7d67db5f3c96e43f61c609",
+    "wordlist.txt": "welcome\nadmin2024\npassword1\nsummer"
+  },
+  "tools": [
+    "md5"
+  ],
+  "flag_sha256": "8cd4e36b6542579b64636cd325d4609ad6e50955455a3b1b36d4a602257d6fc0"
+}

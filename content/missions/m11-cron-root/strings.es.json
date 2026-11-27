@@ -1,0 +1,13 @@
+{
+  "title": "Root en un comentario",
+  "brief": "Eres un desarrollador con pocos privilegios en ops. Los scripts de automatización suelen tener más poder del que sus autores pensaban.",
+  "hint.1": "find / -name '*.sh' lista scripts de shell.",
+  "hint.2": "Lee los scripts. Uno tiene un comentario que no debería estar.",
+  "hint.3": "ssh root@vault con la contraseña del comentario y luego cat /root/flag.txt.",
+  "walkthrough": "find de scripts, cat backup.sh, ssh root@vault, cat /root/flag.txt y envía la bandera.",
+  "debrief": "Una contraseña en un comentario convirtió una cuenta de desarrollador en root de otro servidor. Defensa: mínimo privilegio (a cada cuenta solo lo que necesita), autenticación por clave y secretos fuera del código.",
+  "objective.find": "Busca scripts de shell con find",
+  "objective.script": "Lee el script de copias",
+  "objective.root": "Entra en vault como root",
+  "objective.flag": "Envía la bandera"
+}

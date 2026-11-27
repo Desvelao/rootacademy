@@ -1,0 +1,8 @@
+{
+  "title": "Una clave demasiado pequeña",
+  "prompt": "Un mensaje cifrado con RSA y una clave pública tan pequeña que se puede romper. Cada número es una letra (A=1 … Z=26). La bandera es flag{palabra} en minúsculas.",
+  "hint.1": "RSA solo es seguro si n es demasiado grande para factorizarlo. Factoriza n en dos primos.",
+  "hint.2": "Con p y q puedes calcular el exponente privado d, el inverso de e módulo (p-1)(q-1). El ayudante RSA de Cipher Quest lo hace.",
+  "hint.3": "n = 101 × 103. Descifra cada número como número^d mod n y conviértelo en letra.",
+  "walkthrough": "Factoriza n, calcula d, descifra cada número y lee las letras. La palabra va en minúsculas dentro de flag{...}."
+}

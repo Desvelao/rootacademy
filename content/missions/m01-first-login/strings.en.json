@@ -1,0 +1,13 @@
+{
+  "title": "First login",
+  "brief": "Halcyon Corp hired you for a security test. Your account on the laptop is guest. Look around, read what is there, and find the flag.",
+  "hint.1": "Type ls to list files, and cat <file> to read one.",
+  "hint.2": "Hidden files start with a dot. ls -a shows them.",
+  "hint.3": "cd .hidden, then cat flag.txt. Finish with: submit <flag>.",
+  "walkthrough": "ls, cat readme.txt, ls -a, cd .hidden, cat flag.txt, then submit the flag.",
+  "debrief": "A shell is just a way to ask the computer questions. ls, cd and cat are enough to explore any Linux machine. Dot files are not secret, only hidden from the default view. Defenders: never rely on hidden file names to protect data.",
+  "objective.list": "List the files in your home folder",
+  "objective.readme": "Read readme.txt",
+  "objective.found": "Find and read the hidden flag file",
+  "objective.flag": "Submit the flag"
+}

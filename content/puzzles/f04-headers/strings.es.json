@@ -1,0 +1,8 @@
+{
+  "title": "Lee las cabeceras",
+  "prompt": "Este correo dice ser de Halcyon Billing. Revisa las cabeceras: ¿cuál es distinta y lleva una marca de caso?",
+  "hint.1": "El remitente y el Return-Path difieren. Es una pista.",
+  "hint.2": "Las cabeceras que empiezan por X- son personalizadas.",
+  "hint.3": "La cabecera X-Case tiene la bandera.",
+  "walkthrough": "Mira la cabecera X-Case."
+}

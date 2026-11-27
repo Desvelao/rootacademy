@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "c03-caesar",
+  "type": "puzzle",
+  "category": "crypto",
+  "difficulty": 2,
+  "points": 50,
+  "skills": {
+    "crypto": 15
+  },
+  "unlocks": {
+    "codex": [
+      "caesar-and-rot13"
+    ]
+  },
+  "files": {
+    "cipher.txt": "iodj{fdhvdu_zdv_d_urpdq}"
+  },
+  "tools": [
+    "caesar"
+  ],
+  "flag_sha256": "ec0b01fe374d992e19779a26d678fdb8e77f0dda48b459eeb64e4242229090ba"
+}

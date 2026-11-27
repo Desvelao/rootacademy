@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "m11-cron-root",
+  "type": "terminal-mission",
+  "order": 11,
+  "difficulty": 3,
+  "points": 200,
+  "skills": {
+    "linux": 15,
+    "defense": 15
+  },
+  "unlocks": {
+    "codex": [
+      "least-privilege"
+    ]
+  },
+  "startHost": "ops",
+  "startUser": "dev",
+  "hosts": [
+    {
+      "ip": "10.0.7.60",
+      "name": "ops",
+      "services": [
+        "ssh"
+      ],
+      "files": {
+        "/opt/scripts/backup.sh": {
+          "text": "#!/bin/sh\n# nightly backup to vault\n# TODO use key auth. root pw on vault: R00t-Halcyon!\ntar czf /tmp/b.tgz /srv/data",
+          "mode": "755",
+          "owner": "dev"
+        },
+        "/opt/scripts/cleanup.sh": {
+          "text": "#!/bin/sh\nrm -rf /tmp/old",
+          "mode": "755",
+          "owner": "dev"
+        }
+      }
+    },
+    {
+      "ip": "10.0.7.61",
+      "name": "vault",
+      "services": [
+        "ssh"
+      ],
+      "logins": [
+        {
+          "user": "root",
+          "password": "R00t-Halcyon!"
+        }
+      ],
+      "files": {
+        "/root/flag.txt": {
+          "text": "flag{least_privilege_matters}",
+          "mode": "600"
+        }
+      },
+      "hidden": true
+    }
+  ],
+  "objectives": [
+    {
+      "id": "find",
+      "on": "run",
+      "target": "find"
+    },
+    {
+      "id": "script",
+      "on": "read",
+      "target": "ops:/opt/scripts/backup.sh"
+    },
+    {
+      "id": "root",
+      "on": "connect",
+      "target": "vault"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "e5a97dc00846546b52253c8f4b6f8e3bf1c73af669da19a76e8ee6f93e807b5d",
+  "traceLimit": 70
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Pivot",
+  "brief": "You cannot reach the database from your laptop, but the web server can. Log in to web and look for how its admin works.",
+  "hint.1": "notes.txt has a login for web. ssh webadmin@web.",
+  "hint.2": "Shell history files are hidden: ls -a, then cat .bash_history.",
+  "hint.3": "The history leaks the db login. ssh dba@db, then cat flag.txt.",
+  "walkthrough": "Log in to web, read .bash_history, log in to db with dba, read flag.txt.",
+  "debrief": "Attackers move from one machine to the next (pivoting), using credentials they find on the way. Shell history is a favourite source. Defenders: segment networks, never type passwords in commands, and clear or disable sensitive history.",
+  "objective.web": "Log in to web",
+  "objective.db": "Hop from web to the database host",
+  "objective.flag": "Submit the flag"
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "w03-cookie",
+  "type": "puzzle",
+  "category": "web",
+  "difficulty": 2,
+  "points": 70,
+  "skills": {
+    "web": 20
+  },
+  "unlocks": {
+    "codex": [
+      "cookies-and-tokens"
+    ]
+  },
+  "files": {
+    "request.txt": "GET /dashboard HTTP/1.1\nCookie: session=dXNlcj1ndWVzdDtyb2xlPWd1ZXN0\n\nResponse: 403 Forbidden. The admin panel (flag: ZmxhZ3thZG1pbl9jb29raWVfZWRpdGVkfQ==) only opens for role=admin."
+  },
+  "tools": [
+    "base64"
+  ],
+  "flag_sha256": "1f2681b816d836a92041ca6e30847fabe7183c674329e96262493b3ac57032db"
+}

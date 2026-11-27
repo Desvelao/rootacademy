@@ -1,0 +1,4 @@
+{
+  "title": "Defensa en profundidad",
+  "body": "Ningún control lo detiene todo. Las capas ayudan: MFA frena contraseñas robadas, los límites de intentos frenan adivinanzas, los segmentos de red limitan el movimiento, los registros y alertas muestran lo que pasó y las copias permiten recuperar.\n\nSi falla una capa, la siguiente debe resistir.\n\nCómo aplicarlo: para cada vía de entrada pregunta qué la detiene, qué la frena y qué avisa de que ocurrió. En el juego de defensa significa combinar filtros, cortafuegos, MFA y copias de seguridad en lugar de apilar un solo tipo."
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Who can read what",
+  "brief": "The payroll file is locked down. But is the data really safe? Check the permissions and look for another way to the same information.",
+  "hint.1": "ls -l shows permissions. -rw------- means only the owner can read.",
+  "hint.2": "Try cat payroll.csv: permission denied. Read the README next to it.",
+  "hint.3": "Look inside the old folder mentioned in the README.",
+  "walkthrough": "cd /srv/hr, ls -l, cat README, ls old, cat old/payroll.bak, then submit.",
+  "debrief": "Permissions protect a file, not its copies. The backup was world-readable, so the lock on the original was useless. Defenders: apply the same permissions to backups, and review who can read old exports.",
+  "objective.denied": "Look inside /srv/hr with ls -l and read the permissions",
+  "objective.bak": "Find the readable copy of the payroll data",
+  "objective.flag": "Submit the flag"
+}

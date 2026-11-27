@@ -1,0 +1,8 @@
+{
+  "title": "Read the headers",
+  "prompt": "This email claims to be from Halcyon Billing. Check the headers: which one is not like the others, and carries a case marker?",
+  "hint.1": "The From address and the Return-Path differ. That is a clue.",
+  "hint.2": "Headers starting with X- are custom.",
+  "hint.3": "The X-Case header has the flag.",
+  "walkthrough": "Look at the X-Case header."
+}

@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "f04-headers",
+  "type": "puzzle",
+  "category": "forensics",
+  "difficulty": 1,
+  "points": 50,
+  "skills": {
+    "social": 15
+  },
+  "unlocks": {
+    "codex": [
+      "phishing-basics"
+    ]
+  },
+  "files": {
+    "mail.eml": "Return-Path: <billing@halcyon-pay.example>\nReceived: from unknown (203.0.113.50) by mx.halcyon.example\nFrom: \"Halcyon Billing\" <billing@halcyon.example>\nReply-To: refunds@evil.example\nX-Mailer: bulk-sender 2.0\nX-Case: flag{headers_tell_stories}\nSubject: Invoice overdue"
+  },
+  "tools": [],
+  "flag_sha256": "338836a04d39ec0c4f2e8bf9f9a83db72fadb98e0df8a091f3b1f8844433edf6"
+}

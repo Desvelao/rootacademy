@@ -1,0 +1,8 @@
+{
+  "title": "Un comienzo conocido",
+  "prompt": "Sabes que el mensaje empieza por DEAR. Letras de la clave = cifrado menos texto. La clave es una palabra corta.",
+  "hint.1": "Calcula las primeras letras de la clave: letra cifrada menos D, E, A, R.",
+  "hint.2": "La herramienta de longitud de clave muestra la longitud con mayor puntuación.",
+  "hint.3": "Las cuatro primeras letras de la clave son K, N, I, F: la quinta completa la palabra.",
+  "walkthrough": "La clave es KNIFE."
+}

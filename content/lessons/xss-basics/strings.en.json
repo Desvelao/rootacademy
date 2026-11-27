@@ -1,0 +1,4 @@
+{
+  "title": "Cross-site scripting (XSS)",
+  "body": "XSS happens when a page shows user input as HTML or script without escaping it. An attacker can then run code in other users' browsers, for example to steal a session cookie.\n\nDefenders: escape output, use a content security policy and mark session cookies HttpOnly.\n\nHow to spot it: type something like <b>test</b> in a comment or search box; if it shows up in bold instead of as plain text, the page does not escape output. Real tests use scripts, but bold text proves the hole."
+}

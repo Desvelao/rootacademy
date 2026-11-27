@@ -1,0 +1,8 @@
+{
+  "title": "The general's note",
+  "prompt": "A courier carries a note that Julius Caesar shifted by 3 letters. What does it say? Type the plaintext.",
+  "hint.1": "The shift is three letters. Decode by moving each letter back three.",
+  "hint.2": "Use the Caesar tool with shift 3 (or -3 depending on direction).",
+  "hint.3": "A->D when encrypting, so decrypting moves letters back.",
+  "walkthrough": "Shift 3 backwards: VENI VIDI VICI."
+}

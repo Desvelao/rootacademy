@@ -1,0 +1,4 @@
+{
+  "title": "Permisos de archivos",
+  "body": "ls -l muestra permisos como -rw-r--r--: dueño, grupo y otros, cada uno con lectura, escritura y ejecución. El modo 600 permite leer y escribir solo al dueño; 644 deja leer a todos.\n\nLos permisos protegen un archivo, no sus copias. Una copia legible de un archivo privado lo filtra.\n\nDefensa: mínimo privilegio y dar a las copias la misma protección que al original.\n\nCómo detectarlo: ejecuta ls -l y busca una r en el tercer grupo (los demás pueden leer) en archivos que deberían ser privados, y copias de seguridad con permisos más abiertos que el original."
+}

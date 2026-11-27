@@ -1,0 +1,8 @@
+{
+  "title": "Same word, every time",
+  "prompt": "A message encrypted with a repeating keyword (Vigenère). The sender left a clue about the key. The Cipher Quest tools can help.",
+  "hint.1": "The key is a word; each letter of it is a different Caesar shift.",
+  "hint.2": "The company in this story is Halcyon.",
+  "hint.3": "Decrypt with key HALCYON; punctuation is not encrypted and does not use up key letters.",
+  "walkthrough": "Decrypt the text with the key HALCYON. The result is the flag."
+}

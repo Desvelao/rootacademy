@@ -1,0 +1,4 @@
+{
+  "title": "Codificar no es cifrar",
+  "body": "Base64, hex y la codificación de URL solo cambian cómo se escribe un dato para que quepa en texto. Cualquiera las revierte sin clave. El cifrado necesita una clave secreta.\n\nSi un secreto solo está codificado, no está protegido.\n\nDefensa: nunca tomes la codificación como protección; cifra los secretos o, mejor, mantenlos fuera de archivos y copias.\n\nCómo detectarlo: un texto de solo letras, dígitos, + y / que termina en = suele ser base64; pares de 0-9 y a-f son hex; los grupos tipo %20 son codificación URL. Si una herramienta lo decodifica sin clave, nunca estuvo cifrado."
+}

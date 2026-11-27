@@ -1,0 +1,6 @@
+cat /opt/README
+cat /etc/shadow.txt
+cat /opt/wordlist.txt
+hash -a md5 monkey
+hash -a md5 sunshine
+submit flag{sunshine}

@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "id": "terminal",
+  "engine": "terminal",
+  "order": 1,
+  "contentDir": "",
+  "icon": "terminal"
+}

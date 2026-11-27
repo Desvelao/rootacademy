@@ -1,0 +1,8 @@
+{
+  "title": "Cinco ajustes sospechosos",
+  "prompt": "Una de estas posiciones iniciales es la clave real: CAT, BAT, RAT, HAT, MAT. Prueba cada una hasta que el texto tenga sentido.",
+  "hint.1": "Prueba cada candidata en la herramienta Enigma.",
+  "hint.2": "Los ajustes incorrectos dan galimatías.",
+  "hint.3": "El resultado debe ser texto legible en inglés.",
+  "walkthrough": "Ajustes RAT."
+}

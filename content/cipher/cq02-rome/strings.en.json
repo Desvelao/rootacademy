@@ -1,0 +1,8 @@
+{
+  "title": "Crossing the river",
+  "prompt": "This message uses a Caesar shift, but nobody remembers which one. There are only 25 to try.",
+  "hint.1": "Try every shift from 1 to 25 with the Caesar tool.",
+  "hint.2": "Look for the shift that gives real words.",
+  "hint.3": "The common word 'the' hides in the ciphertext.",
+  "walkthrough": "Shift 5 backwards."
+}

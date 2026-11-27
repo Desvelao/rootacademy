@@ -1,0 +1,4 @@
+{
+  "title": "Least privilege",
+  "body": "Every account and script should have only the access it needs. A developer account that can read a script with a root password effectively is root. Rotate leaked secrets at once.\n\nDefenders: separate duties, use key authentication, store secrets in a vault and audit who can read what.\n\nHow to spot it: read access to scripts, configs or notes that contain credentials, or accounts in groups they do not need. Ask of each account: what is the least it must be able to do for its job?"
+}

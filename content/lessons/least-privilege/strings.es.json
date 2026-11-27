@@ -1,0 +1,4 @@
+{
+  "title": "Mínimo privilegio",
+  "body": "Cada cuenta y script debe tener solo el acceso que necesita. Una cuenta de desarrollo que lee un script con la contraseña de root es, en la práctica, root. Rota de inmediato los secretos filtrados.\n\nDefensa: separa funciones, usa autenticación por clave, guarda secretos en una bóveda y audita quién lee qué.\n\nCómo detectarlo: acceso de lectura a scripts, configuraciones o notas que contienen credenciales, o cuentas en grupos que no necesitan. Pregunta de cada cuenta: ¿cuál es lo mínimo que debe poder hacer para su trabajo?"
+}

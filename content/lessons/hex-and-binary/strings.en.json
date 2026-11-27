@@ -1,0 +1,4 @@
+{
+  "title": "Hex and binary",
+  "body": "Computers store bytes. Hex writes each byte as two characters (A = 41). Dumps of files in hex are how analysts read raw data, and reversing it is only a table lookup, not decryption.\n\nForensics often starts by looking at bytes, not at what a program shows.\n\nHow to spot it: long runs of pairs from 0-9 and a-f, sometimes grouped in eights or sixteens. Decode two characters at a time: 48 65 6C 6C 6F is Hello. The Hex tool does the table lookup for you."
+}

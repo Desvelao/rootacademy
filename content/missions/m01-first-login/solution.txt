@@ -1,0 +1,6 @@
+ls
+cat readme.txt
+ls -a
+cd .hidden
+cat flag.txt
+submit flag{welcome_to_halcyon}

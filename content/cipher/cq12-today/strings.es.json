@@ -1,0 +1,8 @@
+{
+  "title": "El último mensaje",
+  "prompt": "Una clave más larga (n=11413, e=3) y un mensaje más largo. Los primos pequeños siguen cayendo en microsegundos.",
+  "hint.1": "Usa la herramienta RSA con n=11413 y e=3.",
+  "hint.2": "Aun así se factoriza al instante.",
+  "hint.3": "Las claves reales son de 2048 bits: por eso hoy son seguras.",
+  "walkthrough": "El mensaje es SECURE."
+}

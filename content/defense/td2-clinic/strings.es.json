@@ -1,0 +1,15 @@
+{
+  "title": "La clínica",
+  "brief": "Una clínica pequeña guarda los historiales en una base de datos. El dinero es más justo. El ransomware llega por correo y exige un rescate por los datos.",
+  "debrief": "El ransomware se vence con copias de seguridad: si puedes restaurar, el rescate no vale nada.",
+  "hint.1": "Pon la copia donde acaba el ransomware: la base de datos.",
+  "hint.2": "Gasta con cuidado: no puedes pagarlo todo a la vez.",
+  "hint.3": "Reutiliza las defensas de oleadas anteriores; siguen en su sitio.",
+  "walkthrough": "Oleada 1 MFA en la pasarela, oleada 2 filtro en el correo y copia en la base de datos, oleada 3 parchea el PC y cortafuegos en la pasarela. La oleada 4 ya está cubierta.",
+  "node.internet": "Internet",
+  "node.gateway": "Pasarela",
+  "node.mail": "Correo de recepción",
+  "node.ehr": "Servidor de historiales",
+  "node.pc1": "PC de recepción",
+  "node.db": "Base de datos de pacientes"
+}

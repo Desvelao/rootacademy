@@ -1,0 +1,4 @@
+{
+  "title": "Logs and detection",
+  "body": "Logs record what happened: logins, errors, requests. Searching them with tools like grep finds problems fast. Two rules: never write secrets into logs, and watch for patterns, such as many failed logins.\n\nDefenders: centralise logs, protect them from tampering and alert on suspicious patterns.\n\nHow to spot it: use grep to filter by word (grep failed auth.log), count with wc -l, and look for bursts: many failures then one success is a classic sign of a guessed password."
+}

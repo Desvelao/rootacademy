@@ -1,0 +1,12 @@
+{
+  "title": "Pivote",
+  "brief": "No llegas a la base de datos desde tu portátil, pero el servidor web sí. Entra en web y busca cómo trabaja su administrador.",
+  "hint.1": "notes.txt tiene un acceso para web. ssh webadmin@web.",
+  "hint.2": "Los historiales son ocultos: ls -a y luego cat .bash_history.",
+  "hint.3": "El historial filtra el acceso a db. ssh dba@db y luego cat flag.txt.",
+  "walkthrough": "Entra en web, lee .bash_history, entra en db con dba y lee flag.txt.",
+  "debrief": "Los atacantes saltan de una máquina a otra (pivotar) con las credenciales que encuentran. El historial de la terminal es una fuente favorita. Defensa: segmenta redes, nunca escribas contraseñas en comandos y limpia o desactiva historiales sensibles.",
+  "objective.web": "Entra en web",
+  "objective.db": "Salta de web al servidor de base de datos",
+  "objective.flag": "Envía la bandera"
+}

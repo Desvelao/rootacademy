@@ -1,0 +1,12 @@
+{
+  "title": "Inside a phishing kit",
+  "brief": "Someone is phishing Halcyon staff from this mail server. Read the kit and note what makes the email convincing.",
+  "hint.1": "ls /var/mail/campaign shows the kit files.",
+  "hint.2": "Read template.eml and config.ini. The token looks scrambled.",
+  "hint.3": "rot13 <text> shifts letters by 13. Apply it to the token.",
+  "walkthrough": "cat the template and config, rot13 the token, submit.",
+  "debrief": "Look at the sender: halcyon-c0rp.com uses a zero instead of an o. Urgency plus a lookalike domain is the core of phishing. Defenders: check the real domain, distrust urgency, and use mail filters and MFA.",
+  "objective.tmpl": "Read the phishing email template",
+  "objective.cfg": "Read the campaign config",
+  "objective.flag": "Decode the token and submit the flag"
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Signos de porcentaje",
+  "prompt": "Un enlace cuyo parámetro está lleno de códigos %.",
+  "hint.1": "%7B es {. %7D es }.",
+  "hint.2": "Usa la herramienta url para decodificar.",
+  "hint.3": "Decodifica el valor tras next=.",
+  "walkthrough": "Decodifica la URL del parámetro."
+}

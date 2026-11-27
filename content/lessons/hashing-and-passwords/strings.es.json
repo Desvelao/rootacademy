@@ -1,0 +1,4 @@
+{
+  "title": "Hashes y contraseñas",
+  "body": "Un hash convierte datos en una huella fija y no se puede revertir. Los sitios guardan hashes de contraseñas, no contraseñas. Pero los atacantes hashean una lista de contraseñas comunes y comparan, así que las débiles caen rápido. Hashes rápidos como MD5 lo empeoran.\n\nDefensa: usa hashes lentos con sal (bcrypt, argon2), frases largas y MFA.\n\nCómo detectarlo: una cadena hexadecimal de longitud fija (32 caracteres en MD5, 64 en SHA-256) junto a un usuario. Calcula el hash de una lista corta de contraseñas probables con la herramienta de hash y compara; si coincide, se revela la contraseña."
+}

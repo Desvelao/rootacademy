@@ -1,0 +1,8 @@
+{
+  "title": "The day key",
+  "prompt": "The code book says today's start positions spell a pet: DOG. Decrypt the intercept.",
+  "hint.1": "Set the Enigma positions to D, O, G.",
+  "hint.2": "Paste the grouped letters; spaces are ignored.",
+  "hint.3": "Check the output reads as English.",
+  "walkthrough": "Settings DOG."
+}

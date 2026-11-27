@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "c01-base64",
+  "type": "puzzle",
+  "category": "crypto",
+  "difficulty": 1,
+  "points": 50,
+  "skills": {
+    "crypto": 10
+  },
+  "unlocks": {
+    "codex": [
+      "encoding-vs-encryption"
+    ]
+  },
+  "files": {
+    "message.txt": "ZmxhZ3tiYXNlNjRfaXNfbm90X3NlY3JldH0="
+  },
+  "tools": [
+    "base64"
+  ],
+  "flag_sha256": "5d3b7994a93e8413f73c1dc2f150d576fc9359f3aa8d488077c342f2cf3a3019"
+}

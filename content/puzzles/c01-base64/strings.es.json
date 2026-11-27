@@ -1,0 +1,8 @@
+{
+  "title": "Parece revuelto",
+  "prompt": "Este mensaje estaba en una nota adhesiva. Termina con signos =. ¿Qué dice?",
+  "hint.1": "Letras, dígitos y un = final son típicos de Base64.",
+  "hint.2": "Usa la herramienta base64 en modo decodificar.",
+  "hint.3": "El texto decodificado es la bandera.",
+  "walkthrough": "Decodifica el texto con Base64."
+}

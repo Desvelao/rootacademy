@@ -1,0 +1,4 @@
+{
+  "title": "A simple vista",
+  "body": "Los programas compilados y los archivos de datos guardan texto legible. La herramienta strings lo muestra. Todo lo incrustado en un archivo (claves, contraseñas, URLs) puede encontrarse así.\n\nDefensa: nunca pongas secretos en el código de los programas y revisa compilaciones y subidas en busca de restos.\n\nCómo detectarlo: cat sobre un binario imprime ruido, pero strings conserva solo las tiradas de caracteres legibles. Busca en su salida cosas con forma de flag{...}, contraseñas, rutas y direcciones web."
+}

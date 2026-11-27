@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "f06-metadata-layers",
+  "type": "puzzle",
+  "category": "forensics",
+  "difficulty": 3,
+  "points": 100,
+  "skills": {
+    "linux": 20
+  },
+  "unlocks": {
+    "codex": [
+      "hidden-in-plain-sight"
+    ]
+  },
+  "files": {
+    "photo.meta": "File: team_photo.jpg\nSize: 2.4 MB\nCamera: PhoneCam X2\nSoftware: PhotoEdit 3.1\nGPS: not recorded\nUserComment: 5a6d78685a33747359586c6c636e4e666157357a6157526c5832316c6447466b5958526866513d3d\nThumbnail: embedded (JPEG)"
+  },
+  "tools": [
+    "hex",
+    "base64"
+  ],
+  "flag_sha256": "5fa9514063fd58eef898149c78306e33e7c51b25315f2c4fc34bbe776ac90705"
+}

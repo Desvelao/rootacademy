@@ -1,0 +1,8 @@
+{
+  "title": "Código fuente",
+  "prompt": "La página solo muestra un título. ¿Qué más dejó el desarrollador?",
+  "hint.1": "Los navegadores ocultan los comentarios HTML.",
+  "hint.2": "Lee el código fuente con atención.",
+  "hint.3": "Mira entre <!-- y -->.",
+  "walkthrough": "La bandera está en un comentario HTML."
+}

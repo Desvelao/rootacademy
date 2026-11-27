@@ -1,0 +1,8 @@
+{
+  "title": "La misma palabra, siempre",
+  "prompt": "Un mensaje cifrado con una palabra clave repetida (Vigenère). El remitente dejó una pista sobre la clave. Las herramientas de Cipher Quest pueden ayudar.",
+  "hint.1": "La clave es una palabra; cada letra es un desplazamiento César distinto.",
+  "hint.2": "La empresa de esta historia es Halcyon.",
+  "hint.3": "Descifra con la clave HALCYON; la puntuación no se cifra y no gasta letras de la clave.",
+  "walkthrough": "Descifra el texto con la clave HALCYON. El resultado es la bandera."
+}

@@ -1,0 +1,8 @@
+{
+  "title": "La nota del general",
+  "prompt": "Un mensajero lleva una nota que Julio César desplazó 3 letras. ¿Qué dice? Escribe el texto.",
+  "hint.1": "El desplazamiento es de tres letras. Retrocede cada letra tres posiciones.",
+  "hint.2": "Usa la herramienta César con desplazamiento 3 (o -3 según el sentido).",
+  "hint.3": "A->D al cifrar, así que descifrar retrocede las letras.",
+  "walkthrough": "Desplazamiento 3 hacia atrás: VENI VIDI VICI."
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Lo que sabe la foto",
+  "prompt": "Los metadatos de una foto incluyen más que la imagen. Un campo parece raro.",
+  "hint.1": "Campos como GPS y Camera son normales. ¿Cuál está codificado?",
+  "hint.2": "El campo Comment es Base64.",
+  "hint.3": "Decodifica el comentario.",
+  "walkthrough": "Decodifica el campo Comment."
+}

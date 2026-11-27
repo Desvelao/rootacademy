@@ -1,0 +1,4 @@
+wave 1: mfa@gateway
+wave 2: filter@mail backup@db
+wave 3: patch@pc1 firewall@gateway
+wave 4:

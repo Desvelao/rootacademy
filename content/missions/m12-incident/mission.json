@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "id": "m12-incident",
+  "type": "terminal-mission",
+  "order": 12,
+  "difficulty": 3,
+  "points": 250,
+  "skills": {
+    "defense": 30,
+    "network": 5
+  },
+  "unlocks": {
+    "codex": [
+      "defense-in-depth"
+    ]
+  },
+  "startHost": "siem",
+  "startUser": "analyst",
+  "hosts": [
+    {
+      "ip": "10.0.7.99",
+      "name": "siem",
+      "services": [],
+      "files": {
+        "/var/log/auth.log": {
+          "text": "2026-11-09 02:58:11 sshd Accepted password for luis from 10.0.7.10\n2026-11-09 03:00:17 sshd Failed password for admin from 203.0.113.50\n2026-11-09 03:00:34 sshd Failed password for admin from 203.0.113.50\n2026-11-09 03:01:08 sshd Failed password for admin from 203.0.113.50\n2026-11-09 03:01:25 sshd Failed password for admin from 203.0.113.50\n2026-11-09 03:01:51 sshd Failed password for admin from 203.0.113.50\n2026-11-09 03:02:42 sshd Failed password for admin from 203.0.113.50\n2026-11-09 03:02:59 sshd Failed password for admin from 203.0.113.50\n2026-11-09 03:04:02 sshd Accepted password for admin from 203.0.113.50\n2026-11-09 03:05:40 sudo admin : COMMAND=/bin/cat /etc/shadow"
+        },
+        "/opt/ir/playbook.txt": {
+          "text": "Incident playbook\n1. Find the attacker IP in auth.log (a login that succeeded after many failures).\n2. Submit flag{<ip>}.\n3. Block it and reset the account."
+        }
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "playbook",
+      "on": "read",
+      "target": "siem:/opt/ir/playbook.txt"
+    },
+    {
+      "id": "grep",
+      "on": "run",
+      "target": "grep"
+    },
+    {
+      "id": "log",
+      "on": "read",
+      "target": "siem:/var/log/auth.log"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "2fd2fc5d9525ba2e11cf7a1f450fddb1181ce7c15dbc94e9791754bb07708f10",
+  "traceLimit": 60
+}

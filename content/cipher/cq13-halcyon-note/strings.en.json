@@ -1,0 +1,8 @@
+{
+  "title": "The attacker's note",
+  "prompt": "A note was left in the Halcyon mail relay, in the same Vigenère style the phishing kit used. The key is a six-letter word for someone who baits and waits. What do they plan?",
+  "hint.1": "The message probably starts with a short word like WE: key letter = cipher letter minus plain letter.",
+  "hint.2": "The key length helper points to length 6. Phishers lure victims like a fisherman.",
+  "hint.3": "The key is a word for a fisherman with a rod: A, N, G, L, E and one more.",
+  "walkthrough": "The key is ANGLER. The plan names the hour of the incident: three a.m."
+}

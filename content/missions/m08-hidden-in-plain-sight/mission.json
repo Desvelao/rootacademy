@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "m08-hidden-in-plain-sight",
+  "type": "terminal-mission",
+  "order": 8,
+  "difficulty": 2,
+  "points": 150,
+  "skills": {
+    "linux": 15,
+    "crypto": 5
+  },
+  "unlocks": {
+    "codex": [
+      "hidden-in-plain-sight"
+    ]
+  },
+  "startHost": "files",
+  "startUser": "guest",
+  "hosts": [
+    {
+      "ip": "10.0.7.3",
+      "name": "files",
+      "services": [],
+      "files": {
+        "/srv/share/update.bin": {
+          "text": "ELF\u0002\u0001\u0001\u0000\u0000\u0000\u0003\u001b\u0000\u0001\u0002\u0000\u0000\u0001INIT\u0000\u0002\u0003\u0004flag{strings_finds_text}\u0000\u0000\u0001\u0005\u0006\u0007end"
+        },
+        "/srv/share/NOTE": {
+          "text": "update.bin is a binary. Reading it with cat is unreadable. Is there a tool for text inside binaries?"
+        }
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "strings",
+      "on": "run",
+      "target": "strings"
+    },
+    {
+      "id": "bin",
+      "on": "read",
+      "target": "files:/srv/share/update.bin"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "ea4d5aeeb6895f03c9ea036c9f689270d7179ba3b961b866e28237a04482a67b",
+  "traceLimit": 90
+}

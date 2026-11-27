@@ -1,0 +1,10 @@
+{
+  "title": "El rastro web",
+  "intro": "Los sitios web filtran más de lo que creen sus dueños. Sigue cinco pequeños retos web, desde una dirección rara hasta un token falsificado.",
+  "outro": "Leíste lo que delataban la dirección, el archivo robots, el código fuente, una cookie y un token. Un servidor nunca debe fiarse de lo que envía el navegador.",
+  "w1.story": "Un enlace lleno de signos de porcentaje. Decodifícalo para ver a dónde lleva de verdad.",
+  "w2.story": "Un archivo robots.txt lista lo que el sitio no quiere que se busque. Ahí hay que mirar.",
+  "w3.story": "Los desarrolladores dejan notas en el código fuente de la página. Léelo.",
+  "w4.story": "Una cookie que solo dice quién eres. ¿Podrías decir otra cosa?",
+  "w5.story": "Un token en tres partes. Lee cada una."
+}

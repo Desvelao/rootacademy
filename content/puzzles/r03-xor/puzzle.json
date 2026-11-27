@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "r03-xor",
+  "type": "puzzle",
+  "category": "reverse",
+  "difficulty": 3,
+  "points": 100,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "hex-and-binary"
+    ]
+  },
+  "files": {
+    "decode.py": "data = [76,70,75,77,81,82,69,88,117,93,67,94,66,117,75,117,65,79,83,87]\nkey = 42\nprint(''.join(chr(b ^ key) for b in data))"
+  },
+  "tools": [],
+  "flag_sha256": "230d7f31230f677d7425eef9606f8594de7ec66e5fa52ea091c919cc5306921c"
+}

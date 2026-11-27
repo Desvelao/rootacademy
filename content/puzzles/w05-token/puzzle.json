@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "w05-token",
+  "type": "puzzle",
+  "category": "web",
+  "difficulty": 3,
+  "points": 100,
+  "skills": {
+    "web": 20,
+    "crypto": 5
+  },
+  "unlocks": {
+    "codex": [
+      "cookies-and-tokens"
+    ]
+  },
+  "files": {
+    "token.txt": "eyJhbGciOiJub25lIn0.eyJ1c2VyIjoiYW5hIiwibm90ZSI6ImZsYWd7and0X3BheWxvYWRzX2FyZV9yZWFkYWJsZX0ifQ."
+  },
+  "tools": [
+    "base64"
+  ],
+  "flag_sha256": "72730d9655031825006311cd2da61c5dbc37096e63c15936786ef0edfc5896be"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Halcyon: incidente y defensa",
+  "intro": "La cuenta de administrador se usó a las 3 de la madrugada. Ahora eres el defensor: rastrea la intrusión, vigila la siguiente y levanta las defensas.",
+  "outro": "Halcyon está a salvo por ahora. Rastreaste al intruso y defendiste la red frente a todo lo que vino después.",
+  "r1.story": "La cuenta de administrador de Halcyon se usó a las 3 de la madrugada. Descubre quién fue en el registro de autenticación.",
+  "r2.story": "Una intrusión silenciosa se esconde en el ruido. Detéctala en la cola.",
+  "r3.story": "El atacante del incidente ha vuelto. Protege Halcyon en la cola.",
+  "r4.story": "Defiende la pequeña red con la que empezó Halcyon.",
+  "r5.story": "Conoces al intruso y el método. Defiende toda la red de Halcyon frente a lo que viene."
+}

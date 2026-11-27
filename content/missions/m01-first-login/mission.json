@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "m01-first-login",
+  "type": "terminal-mission",
+  "order": 1,
+  "difficulty": 1,
+  "points": 100,
+  "skills": {
+    "linux": 20
+  },
+  "unlocks": {
+    "codex": [
+      "shell-basics"
+    ]
+  },
+  "startHost": "laptop",
+  "startUser": "guest",
+  "hosts": [
+    {
+      "ip": "10.0.7.10",
+      "name": "laptop",
+      "services": [],
+      "files": {
+        "/home/guest/readme.txt": {
+          "text": "Welcome, trainee.\nYour first job: find the file hidden in this account.\nHidden files start with a dot.",
+          "owner": "guest"
+        },
+        "/home/guest/.hidden/flag.txt": {
+          "text": "flag{welcome_to_halcyon}",
+          "owner": "guest"
+        }
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "list",
+      "on": "run",
+      "target": "ls"
+    },
+    {
+      "id": "readme",
+      "on": "read",
+      "target": "laptop:/home/guest/readme.txt"
+    },
+    {
+      "id": "found",
+      "on": "read",
+      "target": "laptop:/home/guest/.hidden/flag.txt"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "ded9ef440c200c9c2187ef72a8baa0cea2af613c660e115bf269e90b9aa12836",
+  "traceLimit": 100
+}

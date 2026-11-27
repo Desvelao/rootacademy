@@ -1,0 +1,5 @@
+ls /var/mail/campaign
+cat /var/mail/campaign/template.eml
+cat /var/mail/campaign/config.ini
+rot13 synt{ybbxnyvxr_qbznvaf}
+submit flag{lookalike_domains}

@@ -1,0 +1,10 @@
+{
+  "title": "Halcyon: incident and defense",
+  "intro": "The admin account was used at 3 a.m. Now you are the defender: trace the intrusion, watch for the next one and build the defenses.",
+  "outro": "Halcyon is safe for now. You traced the intruder and defended the network against everything that came next.",
+  "r1.story": "Halcyon's admin account was used at 3 a.m. Find who did it in the authentication log.",
+  "r2.story": "A quiet intrusion hides in the noise. Spot it in the queue.",
+  "r3.story": "The attacker from the incident is back. Protect Halcyon in the queue.",
+  "r4.story": "Defend the small network Halcyon started with.",
+  "r5.story": "You know the intruder and the method. Defend the whole Halcyon network against what comes next."
+}

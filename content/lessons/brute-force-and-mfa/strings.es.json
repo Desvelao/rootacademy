@@ -1,0 +1,4 @@
+{
+  "title": "Fuerza bruta y MFA",
+  "body": "Un ataque de fuerza bruta prueba muchas contraseñas hasta acertar. Las contraseñas débiles o repetidas caen en segundos.\n\nDefensa: usa contraseñas largas y únicas, limita y bloquea los intentos fallidos repetidos y exige autenticación multifactor (MFA) para que una contraseña robada o adivinada no baste.\n\nCómo detectarlo: registros llenos de inicios de sesión fallidos desde una misma dirección o contra muchas cuentas, a velocidad de máquina. Ejemplo: una contraseña de 6 letras minúsculas tiene unos 300 millones de combinaciones, que un ordenador actual prueba en segundos; una frase de 4 palabras tiene muchísimas más."
+}

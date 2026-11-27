@@ -1,0 +1,8 @@
+{
+  "title": "Three parts",
+  "prompt": "A token with three parts separated by dots. The middle part is the payload.",
+  "hint.1": "Take the part between the dots.",
+  "hint.2": "Add = signs back if needed and decode with Base64.",
+  "hint.3": "The payload JSON contains the flag.",
+  "walkthrough": "Decode the middle part."
+}

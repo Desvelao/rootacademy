@@ -1,0 +1,8 @@
+{
+  "title": "The machine",
+  "prompt": "An Enigma works both ways: the same settings encrypt and decrypt. Rotors start at AAA. Decrypt this.",
+  "hint.1": "Open the Enigma tool and set the positions to AAA.",
+  "hint.2": "Type the ciphertext. The output is the plaintext.",
+  "hint.3": "Enigma never turns a letter into itself, which helped codebreakers.",
+  "walkthrough": "Settings AAA."
+}

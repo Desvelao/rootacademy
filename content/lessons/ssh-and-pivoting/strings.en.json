@@ -1,0 +1,4 @@
+{
+  "title": "SSH and pivoting",
+  "body": "SSH gives remote shell access. Attackers who get into one machine look for credentials there (history, notes, config) and use them to reach machines that were not exposed. That hop is pivoting.\n\nDefenders: segment the network, use key-based logins, never put passwords in commands and limit who can reach what.\n\nHow to spot it: after landing on a machine, check shell history, notes and config files for user names, passwords and host names, then try them with ssh user@host. Each success is a new foothold deeper in the network."
+}

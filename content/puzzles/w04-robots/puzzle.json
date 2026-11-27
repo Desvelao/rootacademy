@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "id": "w04-robots",
+  "type": "puzzle",
+  "category": "web",
+  "difficulty": 1,
+  "points": 50,
+  "skills": {
+    "web": 15
+  },
+  "unlocks": {
+    "codex": [
+      "cookies-and-tokens"
+    ]
+  },
+  "files": {
+    "robots.txt": "User-agent: *\nDisallow: /private-backup-2024/\nDisallow: /tmp/",
+    "/private-backup-2024/notes.txt": "Internal notes\nflag{robots_txt_is_a_map}"
+  },
+  "tools": [],
+  "flag_sha256": "1b0b2ccb743e84da21ff19692d644e3474577e1df87f8c1056fb2fa7178ad4d0"
+}

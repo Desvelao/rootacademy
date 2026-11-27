@@ -1,0 +1,3 @@
+cat /srv/share/NOTE
+strings /srv/share/update.bin
+submit flag{strings_finds_text}

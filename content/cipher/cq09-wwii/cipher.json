@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "cq09-wwii",
+  "type": "cipher-level",
+  "order": 9,
+  "chapter": "wwii",
+  "cipher": "enigma",
+  "ciphertext": "GVGNZ IPHLU FODTL MCQAC IYYYI FPAAT UPTIH CFHPP QEWUF KCIQO",
+  "points": 130,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "hex-and-binary"
+    ]
+  },
+  "flag_sha256": "b7f0de2d9959883a6725760d8b110a8cee0f28bc118ed69d39cbc7fbeeafd1eb"
+}

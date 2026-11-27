@@ -1,0 +1,12 @@
+{
+  "title": "Rompiendo un hash débil",
+  "brief": "El servidor guarda contraseñas como hashes MD5. Calcula el hash de cada palabra de la lista y mira cuál coincide con carlos.",
+  "hint.1": "cat /etc/shadow.txt muestra el hash de carlos. Compáralo con otros.",
+  "hint.2": "hash -a md5 <palabra> imprime el MD5. Prueba las palabras de /opt/wordlist.txt.",
+  "hint.3": "Una palabra produce exactamente el hash del archivo. Envía flag{palabra}.",
+  "walkthrough": "Calcula el hash de cada palabra con hash -a md5 hasta que una coincida. Es sunshine.",
+  "debrief": "Los hashes son de un solo sentido, pero las contraseñas comunes se adivinan hasheando una lista. MD5 es rápido: se prueban miles de millones por segundo. Defensa: usa hashes lentos con sal (bcrypt, argon2) y frases largas.",
+  "objective.shadow": "Lee el archivo de contraseñas",
+  "objective.hash": "Calcula el hash de palabras con hash -a md5 <palabra>",
+  "objective.flag": "Envía flag{contraseña}"
+}

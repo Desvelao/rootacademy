@@ -1,0 +1,13 @@
+{
+  "title": "Reading the source",
+  "brief": "You have a shell on the portal web server. Find how the login builds its database query and where the admin area keeps its notes.",
+  "hint.1": "grep -r searches inside folders. Look for SELECT.",
+  "hint.2": "grep -rn SELECT /var/www shows file and line number.",
+  "hint.3": "The query glues user input into SQL. Then read /var/www/admin/notes.txt.",
+  "walkthrough": "grep -rn SELECT /var/www, cat login.php, cat admin/notes.txt, submit.",
+  "debrief": "The query concatenates what the user types straight into SQL. Typing admin'-- changes the query itself (SQL injection). Defenders: use parameterised queries, never build SQL with string concatenation. Untrusted input is also dangerous when a page prints it back as HTML (cross-site scripting, XSS): escape output on the way out.",
+  "objective.grep": "Search the web root for SQL queries",
+  "objective.src": "Read the login source code",
+  "objective.notes": "Read the admin notes",
+  "objective.flag": "Submit the flag"
+}

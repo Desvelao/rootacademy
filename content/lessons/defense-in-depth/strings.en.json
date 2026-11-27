@@ -1,0 +1,4 @@
+{
+  "title": "Defense in depth",
+  "body": "No single control stops everything. Layers help: MFA stops stolen passwords, rate limits slow guessing, network segments limit movement, logs and alerts reveal what got through, backups let you recover.\n\nWhen one layer fails, the next should still hold.\n\nHow to apply it: for each way in, ask what stops it, what slows it and what tells you it happened. In the tower defense game this means mixing filters, firewalls, MFA and backups instead of stacking one kind everywhere."
+}

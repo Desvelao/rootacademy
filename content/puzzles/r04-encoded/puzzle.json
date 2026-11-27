@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "r04-encoded",
+  "type": "puzzle",
+  "category": "reverse",
+  "difficulty": 2,
+  "points": 70,
+  "skills": {
+    "web": 10,
+    "crypto": 10
+  },
+  "unlocks": {
+    "codex": [
+      "encoding-vs-encryption"
+    ]
+  },
+  "files": {
+    "app.js": "const secret = 'ZmxhZ3tyZWFkX3RoZV9zb3VyY2V9';\nfunction check(x) { return btoa(x) === secret; }"
+  },
+  "tools": [
+    "base64"
+  ],
+  "flag_sha256": "0bab938379ee682e05f376499c23b65d8ad01e751e4fda3b4213b8edf89fa72e"
+}

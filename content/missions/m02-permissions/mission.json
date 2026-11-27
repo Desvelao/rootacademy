@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "id": "m02-permissions",
+  "type": "terminal-mission",
+  "order": 2,
+  "difficulty": 1,
+  "points": 100,
+  "skills": {
+    "linux": 25
+  },
+  "unlocks": {
+    "codex": [
+      "file-permissions"
+    ]
+  },
+  "startHost": "laptop",
+  "startUser": "guest",
+  "hosts": [
+    {
+      "ip": "10.0.7.10",
+      "name": "laptop",
+      "services": [],
+      "files": {
+        "/home/guest/todo.txt": {
+          "text": "Ask ops why payroll data is still around.",
+          "owner": "guest"
+        },
+        "/srv/hr/payroll.csv": {
+          "text": "ana,5200\nluis,4800",
+          "mode": "600",
+          "owner": "hr"
+        },
+        "/srv/hr/README": {
+          "text": "Payroll is private (mode 600). Old exports live in /srv/hr/old.",
+          "owner": "hr"
+        },
+        "/srv/hr/old/payroll.bak": {
+          "text": "ana,5200\nluis,4800\nflag{backups_ignore_permissions}",
+          "owner": "hr"
+        }
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "denied",
+      "on": "run",
+      "target": "ls"
+    },
+    {
+      "id": "bak",
+      "on": "read",
+      "target": "laptop:/srv/hr/old/payroll.bak"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "8e6744aeb2658c919a11257c517ffd8335ccab431a769ccd15f59cad2cd929f7",
+  "traceLimit": 100
+}

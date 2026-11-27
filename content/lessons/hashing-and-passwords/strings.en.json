@@ -1,0 +1,4 @@
+{
+  "title": "Hashing and passwords",
+  "body": "A hash turns data into a fixed fingerprint and cannot be reversed. Sites store password hashes, not passwords. But attackers hash a list of common passwords and compare, so weak passwords fall quickly. Fast hashes like MD5 make it worse.\n\nDefenders: use slow salted hashes (bcrypt, argon2), long passphrases and MFA.\n\nHow to spot it: a fixed-length string of hex digits (32 characters for MD5, 64 for SHA-256) next to a username. Hash a short list of likely passwords with the hash tool and compare; a match reveals the password."
+}

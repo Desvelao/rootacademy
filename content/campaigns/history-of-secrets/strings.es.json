@@ -1,0 +1,17 @@
+{
+  "title": "Una historia de secretos",
+  "intro": "Recorre dos mil años de escritura secreta, desde las letras desplazadas de un general hasta las claves que hoy protegen tu móvil.",
+  "outro": "Rompiste un desplazamiento romano, una palabra clave renacentista, una Enigma de guerra y una clave pública moderna. Todo cayó con la misma idea: encontrar el punto débil en cómo se usa la clave.",
+  "h1.story": "Roma: un mensaje desplazado unas letras. Prueba cada desplazamiento.",
+  "h2.story": "Otro despacho romano. El recuento de letras delata el desplazamiento.",
+  "h3.story": "Una orden romana más larga: confirma tu desplazamiento en todo el texto.",
+  "h4.story": "El Renacimiento trae las palabras clave. Un solo desplazamiento ya no basta.",
+  "h5.story": "Averigua la longitud de la palabra clave antes de intentar adivinarla.",
+  "h6.story": "Un secreto más largo, protegido por una palabra clave más larga.",
+  "h7.story": "Guerra: la máquina Enigma mezcla cada letra de forma distinta.",
+  "h8.story": "La misma máquina, otra posición inicial.",
+  "h9.story": "Los operadores eran descuidados. Usa lo que sabes del mensaje.",
+  "h10.story": "Hoy: claves públicas. Cualquiera puede cerrar, solo el dueño de la clave puede abrir.",
+  "h11.story": "Los números pequeños se factorizan fácilmente. Ese es el punto débil.",
+  "h12.story": "Junta todo y lee el mensaje final."
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Carve it out",
+  "prompt": "A disk image fragment, mostly junk. There is readable text inside.",
+  "hint.1": "Control characters are noise.",
+  "hint.2": "Look for text shaped like flag{...}.",
+  "hint.3": "It sits between zero bytes.",
+  "walkthrough": "Read the printable run."
+}

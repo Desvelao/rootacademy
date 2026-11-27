@@ -1,0 +1,8 @@
+{
+  "title": "Percent signs",
+  "prompt": "A link whose parameter is full of % codes.",
+  "hint.1": "%7B is {. %7D is }.",
+  "hint.2": "Use the url tool to decode.",
+  "hint.3": "Decode the value after next=.",
+  "walkthrough": "URL-decode the parameter."
+}

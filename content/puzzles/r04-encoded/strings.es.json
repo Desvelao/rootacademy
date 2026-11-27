@@ -1,0 +1,8 @@
+{
+  "title": "El cliente lo sabe",
+  "prompt": "Un script compara la entrada con un valor guardado en el navegador.",
+  "hint.1": "btoa() codifica en Base64.",
+  "hint.2": "El secreto guardado es la respuesta codificada. Decodifícalo.",
+  "hint.3": "Decodifica en Base64 la cadena de secret.",
+  "walkthrough": "Decodifica el secreto."
+}

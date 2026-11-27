@@ -1,0 +1,12 @@
+{
+  "title": "Hidden in plain sight",
+  "brief": "A binary file was left on the share. Programs often contain readable text: messages, paths, even secrets.",
+  "hint.1": "cat prints binary as noise. strings prints only the readable parts.",
+  "hint.2": "strings /srv/share/update.bin",
+  "hint.3": "Look for something shaped like flag{...}.",
+  "walkthrough": "strings /srv/share/update.bin, then submit the flag it shows.",
+  "debrief": "Compiled programs keep their text. Anything embedded (passwords, keys) can be extracted with strings. Defenders: never hard-code secrets in binaries and scan builds for them.",
+  "objective.strings": "Pull readable text out of update.bin with strings",
+  "objective.bin": "Open update.bin",
+  "objective.flag": "Submit the flag"
+}

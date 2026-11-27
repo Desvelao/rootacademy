@@ -1,0 +1,6 @@
+cd /var/www
+ls
+grep -rn SELECT /var/www
+cat login.php
+cat admin/notes.txt
+submit flag{never_trust_input}

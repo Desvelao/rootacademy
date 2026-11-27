@@ -1,0 +1,8 @@
+{
+  "title": "La clave del día",
+  "prompt": "El libro de claves dice que las posiciones de hoy forman el nombre de un animal: DOG. Descifra la interceptación.",
+  "hint.1": "Pon las posiciones de Enigma en D, O, G.",
+  "hint.2": "Pega las letras agrupadas; los espacios se ignoran.",
+  "hint.3": "Comprueba que la salida parece inglés.",
+  "walkthrough": "Ajustes DOG."
+}

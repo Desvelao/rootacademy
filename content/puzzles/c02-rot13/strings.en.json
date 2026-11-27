@@ -1,0 +1,8 @@
+{
+  "title": "Thirteen steps",
+  "prompt": "A colleague 'encrypted' the flag by rotating letters. The braces stayed in place.",
+  "hint.1": "The word flag looks like synt. That is a shift of 13.",
+  "hint.2": "ROT13 undoes itself: apply the rot13 tool.",
+  "hint.3": "Apply rot13 to the whole text.",
+  "walkthrough": "ROT13 the text."
+}

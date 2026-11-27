@@ -1,0 +1,13 @@
+{
+  "title": "Root in a comment",
+  "brief": "You are a low-privilege developer on ops. Automation scripts often hold more power than their authors intended.",
+  "hint.1": "find / -name '*.sh' lists shell scripts.",
+  "hint.2": "Read the scripts. One has a comment that should not be there.",
+  "hint.3": "ssh root@vault with the password from the comment, then cat /root/flag.txt.",
+  "walkthrough": "find scripts, cat backup.sh, ssh root@vault, cat /root/flag.txt, submit.",
+  "debrief": "A password in a comment turned a developer account into root on another server. Defenders: least privilege (give each account only what it needs), key-based auth, and secrets outside code.",
+  "objective.find": "Look for shell scripts with find",
+  "objective.script": "Read the backup script",
+  "objective.root": "Log in to vault as root",
+  "objective.flag": "Submit the flag"
+}

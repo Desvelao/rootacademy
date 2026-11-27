@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "id": "cq13-halcyon-note",
+  "type": "cipher-level",
+  "order": 13,
+  "chapter": "today",
+  "cipher": "vigenere",
+  "ciphertext": "wr nlzv tuk lhdia qpcj. sgxtov ag zsvve ns lru tnqp xye igfpk",
+  "points": 130,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": []
+  },
+  "flag_sha256": "4d9a2fe36d4991a95423ca7fa3fbf04f721e5e2dfb876e1bcc0708033c073014"
+}

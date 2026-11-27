@@ -1,0 +1,7 @@
+cat notes.txt
+ssh dev@staging
+st4ging-Pass1
+cd /var/backups
+cat config.bak
+base64 -d ZmxhZ3tkMG50X2wzNHZlX2I0Y2t1cHN9
+submit flag{d0nt_l34ve_b4ckups}

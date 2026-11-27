@@ -1,0 +1,8 @@
+{
+  "title": "A known beginning",
+  "prompt": "You know the message starts with DEAR. Letters of the key = ciphertext minus plaintext. The key is a short word.",
+  "hint.1": "Compute the first key letters: cipher letter minus D, E, A, R.",
+  "hint.2": "The key length helper shows the length with the highest score.",
+  "hint.3": "The first four key letters are K, N, I, F: the fifth completes the word.",
+  "walkthrough": "The key is KNIFE."
+}

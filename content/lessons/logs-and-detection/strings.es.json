@@ -1,0 +1,4 @@
+{
+  "title": "Registros y detección",
+  "body": "Los registros guardan lo ocurrido: accesos, errores, peticiones. Buscar con herramientas como grep encuentra problemas rápido. Dos reglas: nunca escribas secretos en los registros y vigila patrones, como muchos accesos fallidos.\n\nDefensa: centraliza los registros, protégelos de manipulación y alerta ante patrones sospechosos.\n\nCómo detectarlo: usa grep para filtrar por palabra (grep failed auth.log), cuenta con wc -l y busca ráfagas: muchos fallos y luego un acierto es un signo clásico de contraseña adivinada."
+}

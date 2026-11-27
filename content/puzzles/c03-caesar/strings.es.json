@@ -1,0 +1,8 @@
+{
+  "title": "Julio saluda",
+  "prompt": "Texto desplazado unas letras. La primera palabra es flag, desplazada.",
+  "hint.1": "Compara la primera palabra con flag: la diferencia es el desplazamiento.",
+  "hint.2": "Solo hay 25 desplazamientos: prueba todos con la herramienta caesar.",
+  "hint.3": "El desplazamiento es 3 (decodifica con -3).",
+  "walkthrough": "César desplazado 3 hacia atrás."
+}

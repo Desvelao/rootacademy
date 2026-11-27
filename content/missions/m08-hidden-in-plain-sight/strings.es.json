@@ -1,0 +1,12 @@
+{
+  "title": "A simple vista",
+  "brief": "Quedó un binario en el recurso compartido. Los programas suelen contener texto legible: mensajes, rutas, incluso secretos.",
+  "hint.1": "cat imprime binarios como ruido. strings muestra solo las partes legibles.",
+  "hint.2": "Ejecuta: strings /srv/share/update.bin",
+  "hint.3": "Busca algo con forma de flag{...}.",
+  "walkthrough": "strings /srv/share/update.bin y envía la bandera que muestra.",
+  "debrief": "Los programas compilados conservan su texto. Lo incrustado (contraseñas, claves) se extrae con strings. Defensa: nunca pongas secretos en los binarios y analiza las compilaciones en su búsqueda.",
+  "objective.strings": "Extrae el texto legible de update.bin con strings",
+  "objective.bin": "Abre update.bin",
+  "objective.flag": "Envía la bandera"
+}

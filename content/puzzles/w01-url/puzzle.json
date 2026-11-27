@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "w01-url",
+  "type": "puzzle",
+  "category": "web",
+  "difficulty": 1,
+  "points": 50,
+  "skills": {
+    "web": 10
+  },
+  "unlocks": {
+    "codex": [
+      "cookies-and-tokens"
+    ]
+  },
+  "files": {
+    "link.txt": "https://shop.example/redirect?next=flag%7Burl_encoding_hides_nothing%7D"
+  },
+  "tools": [
+    "url"
+  ],
+  "flag_sha256": "31da7dcf11e0c274c705a809dbc1467efe337a244ef269ac46074f4638d53b0e"
+}

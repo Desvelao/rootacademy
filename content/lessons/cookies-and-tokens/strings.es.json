@@ -1,0 +1,4 @@
+{
+  "title": "Cookies y tokens",
+  "body": "Los sitios te mantienen conectado con cookies o tokens. Si un token solo guarda datos legibles (como role=user) que el cliente puede editar, un atacante puede cambiarlo. Los tokens deben ir firmados y el servidor nunca debe confiar en lo que envía el navegador.\n\nDefensa: firma o cifra los tokens, guarda las sesiones en el servidor y comprueba permisos en cada petición.\n\nCómo detectarlo: abre la cookie o el token y busca valores legibles como role=user, id=7 o base64 que se decodifica a texto claro. Si cambiarlo cambia lo que el sitio te permite hacer, el servidor confía demasiado en el cliente."
+}

@@ -1,0 +1,8 @@
+{
+  "title": "¿Quién llama?",
+  "prompt": "Encuentra la dirección que falló al abrir /admin y luego entró. Envía flag{ip}.",
+  "hint.1": "Las direcciones internas empiezan por 10.0.7.",
+  "hint.2": "Una dirección externa pidió /admin varias veces.",
+  "hint.3": "Falló con 401 y luego un POST devolvió 200.",
+  "walkthrough": "La IP con el patrón 401, 401, 200."
+}

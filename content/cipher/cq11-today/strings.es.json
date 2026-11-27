@@ -1,0 +1,8 @@
+{
+  "title": "Factorízalo tú",
+  "prompt": "La clave pública es n=8633, e=5. Nadie te dio los primos: factoriza n.",
+  "hint.1": "División por tanteo: prueba a dividir n entre 2, 3, 5, 7...",
+  "hint.2": "La herramienta RSA lo factoriza.",
+  "hint.3": "Los factores son 89 y 97.",
+  "walkthrough": "Descifra cada número con el exponente privado."
+}

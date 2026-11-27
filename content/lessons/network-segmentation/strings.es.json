@@ -1,0 +1,4 @@
+{
+  "title": "Segmentación de red",
+  "body": "La segmentación divide la red en zonas para que un atacante que entra en una máquina no llegue a todo. En una red plana un gusano o un ransomware salta de un portátil a todos los servidores.\n\nDefensa: separa servidores, equipos del personal e invitados en zonas distintas, permite solo el tráfico que cada zona necesita y vigila los enlaces entre zonas.\n\nCómo detectarlo: si al escanear desde un equipo de invitados o de personal aparecen los servidores, la red es plana. En el mapa de defensa, un enlace por el que los atacantes pueden avanzar es una ruta; elimina o protege las rutas que no necesitan existir."
+}

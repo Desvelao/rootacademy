@@ -1,0 +1,8 @@
+{
+  "title": "Page source",
+  "prompt": "The page shows only a heading. What else did the developer leave?",
+  "hint.1": "Browsers hide HTML comments.",
+  "hint.2": "Read the source carefully.",
+  "hint.3": "Look between <!-- and -->.",
+  "walkthrough": "The flag is in an HTML comment."
+}

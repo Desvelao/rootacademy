@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "m09-phishing-kit",
+  "type": "terminal-mission",
+  "order": 9,
+  "difficulty": 2,
+  "points": 150,
+  "skills": {
+    "social": 25,
+    "crypto": 5
+  },
+  "unlocks": {
+    "codex": [
+      "phishing-basics"
+    ]
+  },
+  "startHost": "mail",
+  "startUser": "guest",
+  "hosts": [
+    {
+      "ip": "10.0.7.50",
+      "name": "mail",
+      "services": [],
+      "files": {
+        "/var/mail/campaign/template.eml": {
+          "text": "From: it-support@halcyon-c0rp.com\nSubject: Urgent: password expires in 1 hour\n\nClick https://halcyon-c0rp-login.example/reset now or lose access.",
+          "owner": "mail"
+        },
+        "/var/mail/campaign/targets.csv": {
+          "text": "ana@halcyon.example\nluis@halcyon.example\ncarlos@halcyon.example",
+          "owner": "mail"
+        },
+        "/var/mail/campaign/config.ini": {
+          "text": "landing=halcyon-c0rp-login.example\nsend_rate=20/min\ntoken=synt{ybbxnyvxr_qbznvaf}",
+          "owner": "mail"
+        }
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "tmpl",
+      "on": "read",
+      "target": "mail:/var/mail/campaign/template.eml"
+    },
+    {
+      "id": "cfg",
+      "on": "read",
+      "target": "mail:/var/mail/campaign/config.ini"
+    },
+    {
+      "id": "flag",
+      "on": "flag"
+    }
+  ],
+  "flag_sha256": "ad7febc690eee983a618ecb522e7de90e497e643caefa29efc193b4664ad87db",
+  "traceLimit": 90
+}

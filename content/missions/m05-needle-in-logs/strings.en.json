@@ -1,0 +1,12 @@
+{
+  "title": "A needle in the logs",
+  "brief": "The app log is long and one line leaks a password. Use grep to find it instead of reading everything.",
+  "hint.1": "grep <word> <file> prints only the lines that contain the word.",
+  "hint.2": "Try grep -i password /var/log/app.log. -i ignores upper/lower case.",
+  "hint.3": "The failed login line contains the password. That is the flag.",
+  "walkthrough": "grep -i password /var/log/app.log, then submit the value.",
+  "debrief": "Logs are a gold mine for defenders and attackers. Here a failed login logged the password in clear text. Defenders: never log secrets, and use search tools to review logs fast.",
+  "objective.grep": "Search the log with grep",
+  "objective.log": "Read app.log",
+  "objective.flag": "Submit the flag"
+}

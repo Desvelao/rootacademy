@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "c02-rot13",
+  "type": "puzzle",
+  "category": "crypto",
+  "difficulty": 1,
+  "points": 50,
+  "skills": {
+    "crypto": 10
+  },
+  "unlocks": {
+    "codex": [
+      "caesar-and-rot13"
+    ]
+  },
+  "files": {
+    "note.txt": "synt{ebg13_gjvpr_vf_abguvat}"
+  },
+  "tools": [
+    "rot13"
+  ],
+  "flag_sha256": "6e3489850e85bf43feab1f2baa53bad6fca7c1863b86ac03169522035d8348d0"
+}

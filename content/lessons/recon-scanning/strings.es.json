@@ -1,0 +1,4 @@
+{
+  "title": "Reconocimiento y escaneo",
+  "body": "Antes de un ataque viene el reconocimiento: qué equipos existen, qué servicios están abiertos y qué versiones corren. Un escaneo consulta cada dirección y puerto. Los banners de servicio suelen revelar software y versión.\n\nEscanear hace ruido y puede detectarse. Defensa: oculta versiones, cierra puertos sin uso, retira equipos viejos y alerta ante escaneos.\n\nCómo detectarlo: muchos intentos de conexión a distintos puertos o direcciones en poco tiempo. Usa scan y connect para ver lo que ve un atacante y anota qué banners revelan versiones de software."
+}

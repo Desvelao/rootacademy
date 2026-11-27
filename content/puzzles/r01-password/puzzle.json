@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "r01-password",
+  "type": "puzzle",
+  "category": "reverse",
+  "difficulty": 1,
+  "points": 50,
+  "skills": {
+    "linux": 10
+  },
+  "unlocks": {
+    "codex": [
+      "hidden-in-plain-sight"
+    ]
+  },
+  "files": {
+    "check.py": "def check(pw):\n    return pw == 'letmein-7'\n\ndef reveal():\n    return 'flag{hardcoded_' + 'password}'"
+  },
+  "tools": [],
+  "flag_sha256": "38f11a090b03b394f61c8a70d4c42edd91ce7aec9a48e88f63aeec7a6171d139"
+}

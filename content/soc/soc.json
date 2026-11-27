@@ -1,0 +1,396 @@
+{
+  "schema": 1,
+  "templates": [
+    {
+      "id": "p-pass-expire",
+      "kind": "email",
+      "verdict": "phishing",
+      "level": 1,
+      "sender": "lookalike",
+      "link": "lookalike",
+      "clues": [
+        "lookalike-domain",
+        "urgency",
+        "link-mismatch"
+      ]
+    },
+    {
+      "id": "p-invoice",
+      "kind": "email",
+      "verdict": "phishing",
+      "level": 1,
+      "sender": "external",
+      "clues": [
+        "external-sender",
+        "unexpected-attachment",
+        "generic-greeting"
+      ]
+    },
+    {
+      "id": "p-ceo-cards",
+      "kind": "email",
+      "verdict": "phishing",
+      "level": 2,
+      "sender": "lookalike",
+      "clues": [
+        "authority-pressure",
+        "lookalike-domain",
+        "secrecy"
+      ]
+    },
+    {
+      "id": "p-shared-doc",
+      "kind": "email",
+      "verdict": "phishing",
+      "level": 2,
+      "sender": "external",
+      "link": "mismatch",
+      "clues": [
+        "link-mismatch",
+        "external-sender",
+        "unexpected-attachment"
+      ]
+    },
+    {
+      "id": "p-delivery",
+      "kind": "email",
+      "verdict": "phishing",
+      "level": 1,
+      "sender": "external",
+      "link": "lookalike",
+      "clues": [
+        "generic-greeting",
+        "link-mismatch",
+        "urgency"
+      ]
+    },
+    {
+      "id": "p-mfa-reset",
+      "kind": "email",
+      "verdict": "phishing",
+      "level": 3,
+      "sender": "lookalike",
+      "link": "lookalike",
+      "clues": [
+        "lookalike-domain",
+        "urgency",
+        "asks-credentials"
+      ]
+    },
+    {
+      "id": "l-meeting",
+      "kind": "email",
+      "verdict": "legit",
+      "level": 1,
+      "sender": "internal",
+      "clues": [
+        "internal-sender",
+        "expected-context"
+      ]
+    },
+    {
+      "id": "l-maintenance",
+      "kind": "email",
+      "verdict": "legit",
+      "level": 1,
+      "sender": "internal",
+      "link": "good",
+      "clues": [
+        "internal-sender",
+        "real-link",
+        "expected-context"
+      ]
+    },
+    {
+      "id": "l-payroll",
+      "kind": "email",
+      "verdict": "legit",
+      "level": 2,
+      "sender": "internal",
+      "link": "good",
+      "clues": [
+        "internal-sender",
+        "real-link"
+      ]
+    },
+    {
+      "id": "l-newsletter",
+      "kind": "email",
+      "verdict": "legit",
+      "level": 1,
+      "sender": "internal",
+      "link": "good",
+      "clues": [
+        "internal-sender",
+        "real-link"
+      ]
+    },
+    {
+      "id": "l-login-office",
+      "kind": "login",
+      "verdict": "legit",
+      "level": 1,
+      "clues": [
+        "normal-baseline",
+        "expected-context"
+      ]
+    },
+    {
+      "id": "l-login-newdevice",
+      "kind": "login",
+      "verdict": "legit",
+      "level": 2,
+      "clues": [
+        "normal-baseline",
+        "user-confirmed"
+      ]
+    },
+    {
+      "id": "e-login-bruteforce",
+      "kind": "login",
+      "verdict": "escalate",
+      "level": 1,
+      "clues": [
+        "many-failures",
+        "external-ip",
+        "success-after-failures"
+      ]
+    },
+    {
+      "id": "e-login-travel",
+      "kind": "login",
+      "verdict": "escalate",
+      "level": 2,
+      "clues": [
+        "impossible-travel",
+        "external-ip"
+      ]
+    },
+    {
+      "id": "e-log-sqli",
+      "kind": "log",
+      "verdict": "escalate",
+      "level": 2,
+      "clues": [
+        "sqli-pattern",
+        "external-ip"
+      ]
+    },
+    {
+      "id": "e-log-exfil",
+      "kind": "log",
+      "verdict": "escalate",
+      "level": 3,
+      "clues": [
+        "data-exfil",
+        "off-hours",
+        "external-ip"
+      ]
+    },
+    {
+      "id": "l-log-backup",
+      "kind": "log",
+      "verdict": "legit",
+      "level": 1,
+      "clues": [
+        "normal-baseline",
+        "expected-context"
+      ]
+    },
+    {
+      "id": "l-log-cron",
+      "kind": "log",
+      "verdict": "legit",
+      "level": 1,
+      "clues": [
+        "normal-baseline"
+      ]
+    },
+    {
+      "id": "p-login-alert",
+      "kind": "email",
+      "verdict": "phishing",
+      "level": 3,
+      "sender": "lookalike",
+      "link": "lookalike",
+      "clues": [
+        "lookalike-domain",
+        "urgency",
+        "asks-credentials"
+      ]
+    }
+  ],
+  "days": [
+    {
+      "id": "soc-day-1",
+      "order": 1,
+      "difficulty": 1,
+      "count": 6,
+      "seed": 1037,
+      "points": 70,
+      "skills": {
+        "social": 12,
+        "defense": 6
+      },
+      "unlocks": {
+        "codex": [
+          "phishing-basics"
+        ]
+      }
+    },
+    {
+      "id": "soc-day-2",
+      "order": 2,
+      "difficulty": 1,
+      "count": 8,
+      "seed": 1074,
+      "points": 80,
+      "skills": {
+        "social": 14,
+        "defense": 7
+      },
+      "unlocks": {
+        "codex": [
+          "logs-and-detection"
+        ]
+      }
+    },
+    {
+      "id": "soc-day-3",
+      "order": 3,
+      "difficulty": 2,
+      "count": 8,
+      "seed": 1111,
+      "points": 90,
+      "skills": {
+        "social": 16,
+        "defense": 8
+      },
+      "unlocks": {
+        "codex": [
+          "phishing-basics"
+        ]
+      }
+    },
+    {
+      "id": "soc-day-4",
+      "order": 4,
+      "difficulty": 2,
+      "count": 8,
+      "seed": 1148,
+      "points": 100,
+      "skills": {
+        "social": 18,
+        "defense": 9
+      },
+      "unlocks": {
+        "codex": [
+          "phishing-basics"
+        ]
+      },
+      "requiresMission": "m09-phishing-kit"
+    },
+    {
+      "id": "soc-day-5",
+      "order": 5,
+      "difficulty": 2,
+      "count": 10,
+      "seed": 1185,
+      "points": 110,
+      "skills": {
+        "social": 20,
+        "defense": 10
+      },
+      "unlocks": {
+        "codex": [
+          "logs-and-detection"
+        ]
+      }
+    },
+    {
+      "id": "soc-day-6",
+      "order": 6,
+      "difficulty": 2,
+      "count": 10,
+      "seed": 1222,
+      "points": 120,
+      "skills": {
+        "social": 22,
+        "defense": 11
+      },
+      "unlocks": {
+        "codex": [
+          "defense-in-depth"
+        ]
+      }
+    },
+    {
+      "id": "soc-day-7",
+      "order": 7,
+      "difficulty": 3,
+      "count": 10,
+      "seed": 1259,
+      "points": 130,
+      "skills": {
+        "social": 24,
+        "defense": 12
+      },
+      "unlocks": {
+        "codex": [
+          "defense-in-depth"
+        ]
+      }
+    },
+    {
+      "id": "soc-day-8",
+      "order": 8,
+      "difficulty": 3,
+      "count": 12,
+      "seed": 1296,
+      "points": 140,
+      "skills": {
+        "social": 26,
+        "defense": 13
+      },
+      "unlocks": {
+        "codex": [
+          "least-privilege"
+        ]
+      }
+    },
+    {
+      "id": "soc-day-9",
+      "order": 9,
+      "difficulty": 3,
+      "count": 12,
+      "seed": 1333,
+      "points": 150,
+      "skills": {
+        "social": 28,
+        "defense": 14
+      },
+      "unlocks": {
+        "codex": [
+          "defense-in-depth"
+        ]
+      }
+    },
+    {
+      "id": "soc-day-10",
+      "order": 10,
+      "difficulty": 3,
+      "count": 12,
+      "seed": 1370,
+      "points": 160,
+      "skills": {
+        "social": 30,
+        "defense": 15
+      },
+      "unlocks": {
+        "codex": [
+          "defense-in-depth"
+        ]
+      }
+    }
+  ]
+}

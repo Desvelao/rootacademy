@@ -1,0 +1,8 @@
+{
+  "title": "No confíes en la cookie",
+  "prompt": "El servidor confía en una cookie que controla el navegador. ¿Qué contiene y qué hay tras el panel?",
+  "hint.1": "Decodifica la cookie de sesión. No está cifrada.",
+  "hint.2": "El panel esconde también una bandera codificada en la respuesta. Decodifícala.",
+  "hint.3": "El servidor nunca debe confiar en el rol que envía el cliente. Decodifica el texto de la bandera.",
+  "walkthrough": "Decodifica el texto de la bandera de la respuesta."
+}

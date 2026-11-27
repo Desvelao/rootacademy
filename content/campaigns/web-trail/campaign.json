@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "web-trail",
+  "order": 5,
+  "steps": [
+    {
+      "id": "w1",
+      "activity": "w01-url",
+      "requires": [],
+      "story": "w1.story"
+    },
+    {
+      "id": "w2",
+      "activity": "w04-robots",
+      "requires": [
+        "w1"
+      ],
+      "story": "w2.story"
+    },
+    {
+      "id": "w3",
+      "activity": "w02-comment",
+      "requires": [
+        "w2"
+      ],
+      "story": "w3.story"
+    },
+    {
+      "id": "w4",
+      "activity": "w03-cookie",
+      "requires": [
+        "w3"
+      ],
+      "story": "w4.story"
+    },
+    {
+      "id": "w5",
+      "activity": "w05-token",
+      "requires": [
+        "w4"
+      ],
+      "story": "w5.story"
+    }
+  ]
+}

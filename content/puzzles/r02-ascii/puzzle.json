@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "r02-ascii",
+  "type": "puzzle",
+  "category": "reverse",
+  "difficulty": 2,
+  "points": 70,
+  "skills": {
+    "crypto": 10
+  },
+  "unlocks": {
+    "codex": [
+      "hex-and-binary"
+    ]
+  },
+  "files": {
+    "decode.py": "codes = [102, 108, 97, 103, 123, 97, 115, 99, 105, 105, 95, 99, 111, 100, 101, 115, 125]\nprint(''.join(chr(c) for c in codes))"
+  },
+  "tools": [],
+  "flag_sha256": "2afad83c37a1be2183f54a73b286046a48dac43a376a6df2e550bcf3da238536"
+}

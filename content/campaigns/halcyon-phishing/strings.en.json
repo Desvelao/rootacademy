@@ -1,0 +1,10 @@
+{
+  "title": "Halcyon: the phishing wave",
+  "intro": "Someone is phishing Halcyon staff from a lookalike domain. Take the kit apart, read what the attackers left behind, and catch the wave in the SOC.",
+  "outro": "You followed the phishing wave from the kit to the SOC queue. The attackers' plan is clear: three a.m.",
+  "q1.story": "Start where the attackers started: take apart the phishing kit that fooled an employee.",
+  "q2.story": "Read the headers of a fake billing email and see who really sent it.",
+  "q3.story": "A message intercepted from the Halcyon mail relay is encrypted. Break it.",
+  "q4.story": "The attackers left a note in the same cipher style. Read their plan.",
+  "q5.story": "Now sit in the SOC. With the kit's signs fresh, triage the mail that is still arriving."
+}

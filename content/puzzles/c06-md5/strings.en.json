@@ -1,0 +1,8 @@
+{
+  "title": "Match the hash",
+  "prompt": "An MD5 hash and a short wordlist. Which word produces the hash? Submit flag{word}.",
+  "hint.1": "Hash each word with the md5 tool.",
+  "hint.2": "Compare the results to the hash in hash.txt.",
+  "hint.3": "The matching word goes inside flag{ }.",
+  "walkthrough": "Hash each wordlist word."
+}

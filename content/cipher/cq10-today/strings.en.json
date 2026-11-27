@@ -1,0 +1,8 @@
+{
+  "title": "Public and private",
+  "prompt": "RSA uses a public key (n=3233, e=17) to encrypt. Letters are A=1..Z=26, each encrypted on its own. Knowing p=61 and q=53 lets you decrypt.",
+  "hint.1": "Use the RSA tool with n=3233 and e=17.",
+  "hint.2": "The tool factors n for you.",
+  "hint.3": "Because n is tiny, anyone can factor it. Real RSA uses primes with hundreds of digits.",
+  "walkthrough": "Decrypt each number: R, S, A."
+}

@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "f05-carve",
+  "type": "puzzle",
+  "category": "forensics",
+  "difficulty": 1,
+  "points": 50,
+  "skills": {
+    "linux": 10
+  },
+  "unlocks": {
+    "codex": [
+      "hidden-in-plain-sight"
+    ]
+  },
+  "files": {
+    "disk.img": "\u0000\u0001\u0002\u0003JUNK\u0000\u0000ÿþflag{carved_from_binary}\u0000\u0003\u0007trailing"
+  },
+  "tools": [],
+  "flag_sha256": "aafbd192a9e5ce9d429b7f70aa51cfa60fe0e4265f23dfd0b57072516d55b903"
+}

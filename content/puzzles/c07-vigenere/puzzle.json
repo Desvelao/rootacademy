@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "c07-vigenere",
+  "type": "puzzle",
+  "category": "crypto",
+  "difficulty": 3,
+  "points": 100,
+  "skills": {
+    "crypto": 20
+  },
+  "unlocks": {
+    "codex": [
+      "caesar-and-rot13"
+    ]
+  },
+  "files": {
+    "note.txt": "Intercepted from the Halcyon mail relay:\n\nmlli{twtlnptc_brldd_c_isl}\n\nPostscript left by the sender: \"Same as the company name, as always.\""
+  },
+  "tools": [],
+  "flag_sha256": "f41df75b4c0dc40821dd61380f77fc6c2322a7881f38d3ff85c7e17523a5f582"
+}

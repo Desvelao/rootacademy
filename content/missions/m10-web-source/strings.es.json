@@ -1,0 +1,13 @@
+{
+  "title": "Leyendo el código",
+  "brief": "Tienes una terminal en el servidor web del portal. Encuentra cómo el inicio de sesión arma su consulta y dónde guarda notas el área de administración.",
+  "hint.1": "grep -r busca dentro de carpetas. Busca SELECT.",
+  "hint.2": "grep -rn SELECT /var/www muestra archivo y número de línea.",
+  "hint.3": "La consulta pega la entrada del usuario dentro del SQL. Luego lee /var/www/admin/notes.txt.",
+  "walkthrough": "grep -rn SELECT /var/www, cat login.php, cat admin/notes.txt y envía la bandera.",
+  "debrief": "La consulta concatena lo que escribe el usuario directamente en el SQL. Escribir admin'-- cambia la propia consulta (inyección SQL). Defensa: usa consultas parametrizadas y nunca armes SQL concatenando texto. La entrada no confiable también es peligrosa cuando una página la devuelve como HTML (cross-site scripting, XSS): escapa la salida.",
+  "objective.grep": "Busca consultas SQL en la raíz web",
+  "objective.src": "Lee el código del inicio de sesión",
+  "objective.notes": "Lee las notas de administración",
+  "objective.flag": "Envía la bandera"
+}

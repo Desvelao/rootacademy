@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "id": "history-of-secrets",
+  "order": 4,
+  "steps": [
+    {
+      "id": "h1",
+      "activity": "cq01-rome",
+      "requires": [],
+      "story": "h1.story"
+    },
+    {
+      "id": "h2",
+      "activity": "cq02-rome",
+      "requires": [
+        "h1"
+      ],
+      "story": "h2.story"
+    },
+    {
+      "id": "h3",
+      "activity": "cq03-rome",
+      "requires": [
+        "h2"
+      ],
+      "story": "h3.story"
+    },
+    {
+      "id": "h4",
+      "activity": "cq04-renaissance",
+      "requires": [
+        "h3"
+      ],
+      "story": "h4.story"
+    },
+    {
+      "id": "h5",
+      "activity": "cq05-renaissance",
+      "requires": [
+        "h4"
+      ],
+      "story": "h5.story"
+    },
+    {
+      "id": "h6",
+      "activity": "cq06-renaissance",
+      "requires": [
+        "h5"
+      ],
+      "story": "h6.story"
+    },
+    {
+      "id": "h7",
+      "activity": "cq07-wwii",
+      "requires": [
+        "h6"
+      ],
+      "story": "h7.story"
+    },
+    {
+      "id": "h8",
+      "activity": "cq08-wwii",
+      "requires": [
+        "h7"
+      ],
+      "story": "h8.story"
+    },
+    {
+      "id": "h9",
+      "activity": "cq09-wwii",
+      "requires": [
+        "h8"
+      ],
+      "story": "h9.story"
+    },
+    {
+      "id": "h10",
+      "activity": "cq10-today",
+      "requires": [
+        "h9"
+      ],
+      "story": "h10.story"
+    },
+    {
+      "id": "h11",
+      "activity": "cq11-today",
+      "requires": [
+        "h10"
+      ],
+      "story": "h11.story"
+    },
+    {
+      "id": "h12",
+      "activity": "cq12-today",
+      "requires": [
+        "h11"
+      ],
+      "story": "h12.story"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Dentro de un kit de phishing",
+  "brief": "Alguien hace phishing a Halcyon desde este servidor de correo. Lee el kit y fíjate en lo que hace convincente el correo.",
+  "hint.1": "ls /var/mail/campaign muestra los archivos del kit.",
+  "hint.2": "Lee template.eml y config.ini. El token parece revuelto.",
+  "hint.3": "rot13 <texto> desplaza las letras 13 posiciones. Aplícalo al token.",
+  "walkthrough": "cat de la plantilla y la configuración, rot13 del token y envía la bandera.",
+  "debrief": "Mira el remitente: halcyon-c0rp.com usa un cero en vez de una o. Urgencia más dominio parecido es el núcleo del phishing. Defensa: revisa el dominio real, desconfía de la urgencia y usa filtros de correo y MFA.",
+  "objective.tmpl": "Lee la plantilla del correo de phishing",
+  "objective.cfg": "Lee la configuración de la campaña",
+  "objective.flag": "Decodifica el token y envía la bandera"
+}

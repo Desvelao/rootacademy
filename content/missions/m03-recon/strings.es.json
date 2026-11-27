@@ -1,0 +1,12 @@
+{
+  "title": "Mapeando la red",
+  "brief": "Antes de atacar, los atacantes observan. Escanea la red, lee los banners de los servicios y encuentra el equipo que nadie mencionó.",
+  "hint.1": "scan lista los equipos visibles. Luego connect <equipo> <servicio> muestra lo que el servicio dice de sí mismo.",
+  "hint.2": "Un banner menciona un equipo que scan no mostró.",
+  "hint.3": "connect staging ssh. Su banner tiene la bandera.",
+  "walkthrough": "scan, connect files ftp, connect staging ssh y envía la bandera del banner.",
+  "debrief": "El reconocimiento es leer lo que los sistemas cuentan solos: puertos abiertos, versiones y banners descuidados. Escanear también hace ruido, por eso subió el medidor de rastro. Defensa: oculta versiones, retira equipos viejos y alerta ante escaneos.",
+  "objective.scan": "Escanea la red en busca de equipos",
+  "objective.connect": "Lee el banner de un servicio con connect <equipo> <servicio>",
+  "objective.flag": "Envía la bandera"
+}

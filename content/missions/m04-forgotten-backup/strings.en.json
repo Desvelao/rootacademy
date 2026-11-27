@@ -1,0 +1,12 @@
+{
+  "title": "The forgotten backup",
+  "brief": "A developer left their login on the wiki. Staging may hold old backups with secrets in them.",
+  "hint.1": "The note in your home folder has a login. Use ssh dev@staging and type the password when asked.",
+  "hint.2": "Backups are often in /var/backups.",
+  "hint.3": "The api_key value looks like Base64. base64 -d <text> decodes it.",
+  "walkthrough": "cat notes.txt, ssh dev@staging, cd /var/backups, cat config.bak, base64 -d <the key>, submit.",
+  "debrief": "Base64 is an encoding, not encryption: anyone can reverse it with no key. Secrets in old backups and wikis are a classic leak. Defenders: keep secrets out of backups, rotate keys and use a secrets manager.",
+  "objective.login": "Log in to staging over ssh",
+  "objective.bak": "Read the forgotten backup",
+  "objective.flag": "Decode the key and submit the flag"
+}

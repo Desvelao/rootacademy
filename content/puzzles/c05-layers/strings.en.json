@@ -1,0 +1,8 @@
+{
+  "title": "Layer cake",
+  "prompt": "Someone encoded the flag more than once.",
+  "hint.1": "Decode the first layer: it looks like Base64.",
+  "hint.2": "The result is hex. Decode it, then check again.",
+  "hint.3": "Base64, hex, Base64: undo each layer in turn.",
+  "walkthrough": "Base64 -> hex -> Base64."
+}

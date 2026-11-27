@@ -1,0 +1,8 @@
+{
+  "title": "The client knows",
+  "prompt": "A script checks input against a stored value in the browser.",
+  "hint.1": "btoa() is Base64 encode.",
+  "hint.2": "The stored secret is the encoded answer. Decode it.",
+  "hint.3": "Base64-decode the string in secret.",
+  "walkthrough": "Decode the secret."
+}

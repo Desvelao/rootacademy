@@ -1,0 +1,12 @@
+{
+  "title": "Quién puede leer qué",
+  "brief": "El archivo de nómina está protegido. Pero, ¿están los datos a salvo? Revisa los permisos y busca otra vía a la misma información.",
+  "hint.1": "ls -l muestra los permisos. -rw------- significa que solo el dueño puede leer.",
+  "hint.2": "Prueba cat payroll.csv: permiso denegado. Lee el README que hay al lado.",
+  "hint.3": "Mira dentro de la carpeta old que menciona el README.",
+  "walkthrough": "cd /srv/hr, ls -l, cat README, ls old, cat old/payroll.bak y envía la bandera.",
+  "debrief": "Los permisos protegen un archivo, no sus copias. La copia era legible por todos, así que el candado del original no servía. Defensa: aplica los mismos permisos a las copias de seguridad y revisa quién puede leer exportaciones antiguas.",
+  "objective.denied": "Mira dentro de /srv/hr con ls -l y lee los permisos",
+  "objective.bak": "Encuentra la copia legible de los datos de nómina",
+  "objective.flag": "Envía la bandera"
+}

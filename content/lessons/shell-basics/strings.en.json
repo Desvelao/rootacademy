@@ -1,0 +1,4 @@
+{
+  "title": "The shell in three commands",
+  "body": "A shell lets you talk to a computer in text. ls lists files, cd changes folder, cat prints a file. Add -a to ls to see hidden (dot) files. Hidden is not secret: a file's name never protects it.\n\nIn real life: attackers and admins both start by looking around. Defenders: protect data with permissions and encryption, not with obscure names.\n\nTry it: ls shows the folder, ls -a also shows hidden files, cd moves into a folder, cat prints a file. Add a pipe to chain tools: cat notes.txt | grep password shows only matching lines."
+}

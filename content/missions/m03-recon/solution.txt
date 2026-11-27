@@ -1,0 +1,6 @@
+cat scope.txt
+scan
+connect web http
+connect files ftp
+connect staging ssh
+submit flag{banners_talk_too}

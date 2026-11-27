@@ -1,0 +1,4 @@
+{
+  "title": "SQL injection basics",
+  "body": "If a site glues user input into a SQL string, the user can change the query: admin'-- turns the rest of the query into a comment. The database then trusts attacker-written SQL.\n\nDefenders: use parameterised queries (placeholders), validate input, and give the database account only the rights it needs.\n\nHow to spot it: a login or search that breaks with a single quote (') or shows a database error. Classic test input is admin'-- ; if it logs you in without the password, the query is being built from raw text."
+}

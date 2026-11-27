@@ -1,0 +1,8 @@
+{
+  "title": "Extrae el texto",
+  "prompt": "Un fragmento de imagen de disco, casi todo basura. Hay texto legible dentro.",
+  "hint.1": "Los caracteres de control son ruido.",
+  "hint.2": "Busca texto con forma de flag{...}.",
+  "hint.3": "Está entre bytes cero.",
+  "walkthrough": "Lee la secuencia imprimible."
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Cracking a weak hash",
+  "brief": "The auth server stores passwords as MD5 hashes. Hash every word of the wordlist and see which one matches carlos.",
+  "hint.1": "cat /etc/shadow.txt shows the hash of carlos. Compare it with others.",
+  "hint.2": "hash -a md5 <word> prints the MD5 of a word. Try the words in /opt/wordlist.txt.",
+  "hint.3": "One word produces exactly the hash in the file. Submit flag{word}.",
+  "walkthrough": "Hash each wordlist word with hash -a md5 until one matches. It is sunshine.",
+  "debrief": "Hashes are one-way, but common passwords are guessable by hashing a list. MD5 is fast, so attackers try billions per second. Defenders: use slow salted hashes (bcrypt, argon2) and long passphrases.",
+  "objective.shadow": "Read the password file",
+  "objective.hash": "Hash candidate words with hash -a md5 <word>",
+  "objective.flag": "Submit flag{password}"
+}

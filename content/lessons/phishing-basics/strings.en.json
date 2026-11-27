@@ -1,0 +1,4 @@
+{
+  "title": "Phishing basics",
+  "body": "Phishing tricks people into giving access. Signs: urgency, a lookalike domain (halcyon-c0rp.com), a link whose real address differs from the text, unexpected attachments, requests for passwords.\n\nDefenders: check the real sender domain, hover links, never log in from an email link, and use MFA and mail filters.\n\nHow to spot it: compare the sender domain letter by letter (0 for o, rn for m), read where a link really goes, and ask whether the message pushes you to act fast or to skip the normal process. In a SOC shift, each of these is a clue."
+}
