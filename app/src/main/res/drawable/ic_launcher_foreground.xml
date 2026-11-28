@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Placeholder icon (a disc inside the adaptive-icon safe zone): replace with your own artwork. -->
+<!-- Launcher icon: a root shell prompt (#) and a block cursor, inside the adaptive-icon safe zone.
+     Also used as the monochrome layer, where only the shape matters. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
@@ -7,5 +8,8 @@
     android:viewportHeight="108">
     <path
         android:fillColor="#FFB4E33D"
-        android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+        android:pathData="M43,37h7L44,71h-7Z M57,37h7L58,71h-7Z M36,45h32v6.5H36Z M33,57h32v6.5H33Z" />
+    <path
+        android:fillColor="#FFD3F871"
+        android:pathData="M68,64.5h9v6.5h-9Z" />
 </vector>

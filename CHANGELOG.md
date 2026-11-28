@@ -12,6 +12,7 @@ workflow publishes the matching section as the GitHub Release notes.
 First release.
 
 ### Added
+- App icon: a root shell prompt (`#`) with a block cursor, also used as the themed (monochrome) icon.
 - `make dev` builds the debug APK into `dist/<app>-<version>-<yyyymmddhhmm>.apk`.
 - Terminal output can be selected and copied by long-press, and a Copy button copies all of it.
 - Sub-games are now defined as data (`content/games/`), so new games on the existing engines need no code.
